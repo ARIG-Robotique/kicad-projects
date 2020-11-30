@@ -58,9 +58,10 @@ P 5240 4060
 AR Path="/60CAA1DF" Ref="R?"  Part="1" 
 AR Path="/60C96C2B/60CAA1DF" Ref="R12"  Part="1" 
 F 0 "R12" H 5308 4106 50  0000 L CNN
-F 1 "150" H 5308 4015 50  0000 L CNN
+F 1 "220" H 5308 4015 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5280 4050 50  0001 C CNN
 F 3 "~" H 5240 4060 50  0001 C CNN
+F 4 "C417010" H 5240 4060 50  0001 C CNN "LCSC Part"
 	1    5240 4060
 	1    0    0    -1  
 $EndComp
@@ -142,7 +143,7 @@ AR Path="/60CAA209" Ref="JP?"  Part="1"
 AR Path="/60C96C2B/60CAA209" Ref="JP4"  Part="1" 
 F 0 "JP4" V 7364 4728 50  0000 L CNN
 F 1 "A0" V 7455 4728 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7410 4660 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7410 4660 50  0001 C CNN
 F 3 "~" H 7410 4660 50  0001 C CNN
 	1    7410 4660
 	0    1    1    0   
@@ -155,7 +156,7 @@ AR Path="/60CAA20F" Ref="JP?"  Part="1"
 AR Path="/60C96C2B/60CAA20F" Ref="JP5"  Part="1" 
 F 0 "JP5" V 7634 4728 50  0000 L CNN
 F 1 "A1" V 7725 4728 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7680 4660 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7680 4660 50  0001 C CNN
 F 3 "~" H 7680 4660 50  0001 C CNN
 	1    7680 4660
 	0    1    1    0   
@@ -168,7 +169,7 @@ AR Path="/60CAA215" Ref="JP?"  Part="1"
 AR Path="/60C96C2B/60CAA215" Ref="JP6"  Part="1" 
 F 0 "JP6" V 7894 4728 50  0000 L CNN
 F 1 "A2" V 7985 4728 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7940 4660 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7940 4660 50  0001 C CNN
 F 3 "~" H 7940 4660 50  0001 C CNN
 	1    7940 4660
 	0    1    1    0   

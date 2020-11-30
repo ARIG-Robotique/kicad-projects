@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -21,7 +21,7 @@ AR Path="/60B19B19" Ref="U?"  Part="1"
 AR Path="/60AFBE25/60B19B19" Ref="U2"  Part="1" 
 AR Path="/60F3E9E6/60B19B19" Ref="U4"  Part="1" 
 AR Path="/60F517CF/60B19B19" Ref="U5"  Part="1" 
-F 0 "U2" H 6360 4430 50  0000 C CNN
+F 0 "U5" H 6360 4430 50  0000 C CNN
 F 1 "PCF8591" H 6480 4340 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 6260 3430 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/PCF8591.pdf" H 6260 3430 50  0001 C CNN
@@ -37,7 +37,7 @@ AR Path="/60B19B25" Ref="C?"  Part="1"
 AR Path="/60AFBE25/60B19B25" Ref="C3"  Part="1" 
 AR Path="/60F3E9E6/60B19B25" Ref="C8"  Part="1" 
 AR Path="/60F517CF/60B19B25" Ref="C11"  Part="1" 
-F 0 "C3" H 7435 3916 50  0000 L CNN
+F 0 "C11" H 7435 3916 50  0000 L CNN
 F 1 "100u" H 7435 3825 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 7320 3870 50  0001 C CNN
 F 3 "~" H 7320 3870 50  0001 C CNN
@@ -83,7 +83,7 @@ AR Path="/60B19B3F" Ref="R?"  Part="1"
 AR Path="/60AFBE25/60B19B3F" Ref="R11"  Part="1" 
 AR Path="/60F3E9E6/60B19B3F" Ref="R20"  Part="1" 
 AR Path="/60F517CF/60B19B3F" Ref="R24"  Part="1" 
-F 0 "R11" H 7388 3316 50  0000 L CNN
+F 0 "R24" H 7388 3316 50  0000 L CNN
 F 1 "10k" H 7388 3225 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7360 3260 50  0001 C CNN
 F 3 "~" H 7320 3270 50  0001 C CNN
@@ -140,9 +140,9 @@ AR Path="/60B5D46C" Ref="JP?"  Part="1"
 AR Path="/60AFBE25/60B5D46C" Ref="JP1"  Part="1" 
 AR Path="/60F3E9E6/60B5D46C" Ref="JP7"  Part="1" 
 AR Path="/60F517CF/60B5D46C" Ref="JP10"  Part="1" 
-F 0 "JP1" V 4124 4558 50  0000 L CNN
+F 0 "JP10" V 4124 4558 50  0000 L CNN
 F 1 "A0" V 4215 4558 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4170 4490 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4170 4490 50  0001 C CNN
 F 3 "~" H 4170 4490 50  0001 C CNN
 	1    4170 4490
 	0    1    1    0   
@@ -155,9 +155,9 @@ AR Path="/60B5D472" Ref="JP?"  Part="1"
 AR Path="/60AFBE25/60B5D472" Ref="JP2"  Part="1" 
 AR Path="/60F3E9E6/60B5D472" Ref="JP8"  Part="1" 
 AR Path="/60F517CF/60B5D472" Ref="JP11"  Part="1" 
-F 0 "JP2" V 4394 4558 50  0000 L CNN
+F 0 "JP11" V 4394 4558 50  0000 L CNN
 F 1 "A1" V 4485 4558 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4440 4490 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4440 4490 50  0001 C CNN
 F 3 "~" H 4440 4490 50  0001 C CNN
 	1    4440 4490
 	0    1    1    0   
@@ -170,9 +170,9 @@ AR Path="/60B5D478" Ref="JP?"  Part="1"
 AR Path="/60AFBE25/60B5D478" Ref="JP3"  Part="1" 
 AR Path="/60F3E9E6/60B5D478" Ref="JP9"  Part="1" 
 AR Path="/60F517CF/60B5D478" Ref="JP12"  Part="1" 
-F 0 "JP3" V 4654 4558 50  0000 L CNN
+F 0 "JP12" V 4654 4558 50  0000 L CNN
 F 1 "A2" V 4745 4558 50  0000 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4700 4490 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4700 4490 50  0001 C CNN
 F 3 "~" H 4700 4490 50  0001 C CNN
 	1    4700 4490
 	0    1    1    0   
@@ -199,7 +199,7 @@ AR Path="/60B5D486" Ref="R?"  Part="1"
 AR Path="/60AFBE25/60B5D486" Ref="R8"  Part="1" 
 AR Path="/60F3E9E6/60B5D486" Ref="R17"  Part="1" 
 AR Path="/60F517CF/60B5D486" Ref="R21"  Part="1" 
-F 0 "R8" H 4238 4186 50  0000 L CNN
+F 0 "R21" H 4238 4186 50  0000 L CNN
 F 1 "10k" H 4238 4095 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4210 4130 50  0001 C CNN
 F 3 "~" H 4170 4140 50  0001 C CNN
@@ -214,7 +214,7 @@ AR Path="/60B5D48C" Ref="R?"  Part="1"
 AR Path="/60AFBE25/60B5D48C" Ref="R9"  Part="1" 
 AR Path="/60F3E9E6/60B5D48C" Ref="R18"  Part="1" 
 AR Path="/60F517CF/60B5D48C" Ref="R22"  Part="1" 
-F 0 "R9" H 4508 4186 50  0000 L CNN
+F 0 "R22" H 4508 4186 50  0000 L CNN
 F 1 "10k" H 4508 4095 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4480 4130 50  0001 C CNN
 F 3 "~" H 4440 4140 50  0001 C CNN
@@ -229,7 +229,7 @@ AR Path="/60B5D492" Ref="R?"  Part="1"
 AR Path="/60AFBE25/60B5D492" Ref="R10"  Part="1" 
 AR Path="/60F3E9E6/60B5D492" Ref="R19"  Part="1" 
 AR Path="/60F517CF/60B5D492" Ref="R23"  Part="1" 
-F 0 "R10" H 4768 4186 50  0000 L CNN
+F 0 "R23" H 4768 4186 50  0000 L CNN
 F 1 "10k" H 4768 4095 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4740 4130 50  0001 C CNN
 F 3 "~" H 4700 4140 50  0001 C CNN
@@ -296,7 +296,7 @@ AR Path="/60BCB47E" Ref="C?"  Part="1"
 AR Path="/60AFBE25/60BCB47E" Ref="C2"  Part="1" 
 AR Path="/60F3E9E6/60BCB47E" Ref="C7"  Part="1" 
 AR Path="/60F517CF/60BCB47E" Ref="C10"  Part="1" 
-F 0 "C2" H 4695 2816 50  0000 L CNN
+F 0 "C10" H 4695 2816 50  0000 L CNN
 F 1 "100n" H 4695 2725 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4618 2620 50  0001 C CNN
 F 3 "~" H 4580 2770 50  0001 C CNN
@@ -312,7 +312,7 @@ AR Path="/60BCB484" Ref="C?"  Part="1"
 AR Path="/60AFBE25/60BCB484" Ref="C1"  Part="1" 
 AR Path="/60F3E9E6/60BCB484" Ref="C6"  Part="1" 
 AR Path="/60F517CF/60BCB484" Ref="C9"  Part="1" 
-F 0 "C1" H 4295 2816 50  0000 L CNN
+F 0 "C9" H 4295 2816 50  0000 L CNN
 F 1 "100u" H 4295 2725 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x6.5" H 4180 2770 50  0001 C CNN
 F 3 "~" H 4180 2770 50  0001 C CNN
@@ -423,7 +423,7 @@ AR Path="/5FD6079A" Ref="R?"  Part="1"
 AR Path="/60AFBE25/5FD6079A" Ref="R25"  Part="1" 
 AR Path="/60F3E9E6/5FD6079A" Ref="R26"  Part="1" 
 AR Path="/60F517CF/5FD6079A" Ref="R27"  Part="1" 
-F 0 "R25" H 7078 4166 50  0000 L CNN
+F 0 "R27" H 7078 4166 50  0000 L CNN
 F 1 "10k" H 7078 4075 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7050 4110 50  0001 C CNN
 F 3 "~" H 7010 4120 50  0001 C CNN

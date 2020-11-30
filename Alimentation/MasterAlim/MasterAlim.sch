@@ -189,18 +189,16 @@ Text Label 7010 5740 2    50   ~ 0
 PIL_T3
 Text Label 7010 6320 2    50   ~ 0
 PIL_T4
-Text Label 7610 6220 0    50   ~ 0
+Text Label 7910 6220 0    50   ~ 0
 EN_T4
-Text Label 7610 5640 0    50   ~ 0
+Text Label 7910 5640 0    50   ~ 0
 EN_T3
-Text Label 7610 4470 0    50   ~ 0
+Text Label 7910 4470 0    50   ~ 0
 EN_T1
 Wire Notes Line
-	6570 6480 8120 6480
+	6570 6480 8280 6480
 Wire Notes Line
-	8120 6480 8120 2240
-Wire Notes Line
-	8120 2240 6570 2240
+	8280 6480 8280 2250
 Wire Notes Line
 	6570 2240 6570 6480
 $Comp
@@ -541,7 +539,7 @@ F 4 "C168485" H 5770 7160 50  0001 C CNN "LCSC Part"
 $EndComp
 Wire Wire Line
 	5770 7010 5770 6990
-Text Label 7610 5040 0    50   ~ 0
+Text Label 7910 5040 0    50   ~ 0
 EN_T2
 $Comp
 L power:+BATT #PWR0112
@@ -1548,4 +1546,94 @@ Wire Wire Line
 Wire Wire Line
 	2150 3820 2150 3720
 Connection ~ 2150 3720
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FC2F35C
+P 10080 740
+F 0 "H1" H 10180 786 50  0000 L CNN
+F 1 "MountingHole" H 10180 695 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10080 740 50  0001 C CNN
+F 3 "~" H 10080 740 50  0001 C CNN
+	1    10080 740 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FC311B6
+P 10080 930
+F 0 "H2" H 10180 976 50  0000 L CNN
+F 1 "MountingHole" H 10180 885 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10080 930 50  0001 C CNN
+F 3 "~" H 10080 930 50  0001 C CNN
+	1    10080 930 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FC3153A
+P 10080 1120
+F 0 "H3" H 10180 1166 50  0000 L CNN
+F 1 "MountingHole" H 10180 1075 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10080 1120 50  0001 C CNN
+F 3 "~" H 10080 1120 50  0001 C CNN
+	1    10080 1120
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FC3189D
+P 10080 1310
+F 0 "H4" H 10180 1356 50  0000 L CNN
+F 1 "MountingHole" H 10180 1265 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10080 1310 50  0001 C CNN
+F 3 "~" H 10080 1310 50  0001 C CNN
+	1    10080 1310
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP13
+U 1 1 5FC8DEE2
+P 7760 4470
+F 0 "JP13" H 7760 4675 50  0000 C CNN
+F 1 "EN_T1" H 7760 4584 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7760 4470 50  0001 C CNN
+F 3 "~" H 7760 4470 50  0001 C CNN
+	1    7760 4470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP14
+U 1 1 5FCA7ABF
+P 7760 5040
+F 0 "JP14" H 7760 5245 50  0000 C CNN
+F 1 "EN_T2" H 7760 5154 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7760 5040 50  0001 C CNN
+F 3 "~" H 7760 5040 50  0001 C CNN
+	1    7760 5040
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP15
+U 1 1 5FCA8A3F
+P 7760 5640
+F 0 "JP15" H 7760 5845 50  0000 C CNN
+F 1 "EN_T3" H 7760 5754 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7760 5640 50  0001 C CNN
+F 3 "~" H 7760 5640 50  0001 C CNN
+	1    7760 5640
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP16
+U 1 1 5FCA9630
+P 7760 6220
+F 0 "JP16" H 7760 6425 50  0000 C CNN
+F 1 "EN_T4" H 7760 6334 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7760 6220 50  0001 C CNN
+F 3 "~" H 7760 6220 50  0001 C CNN
+	1    7760 6220
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6570 2240 8280 2240
 $EndSCHEMATC
