@@ -189,11 +189,11 @@ Text Label 7010 5740 2    50   ~ 0
 PIL_T3
 Text Label 7010 6320 2    50   ~ 0
 PIL_T4
-Text Label 7910 6220 0    50   ~ 0
+Text Label 7610 6220 0    50   ~ 0
 EN_T4
-Text Label 7910 5640 0    50   ~ 0
+Text Label 7610 5640 0    50   ~ 0
 EN_T3
-Text Label 7910 4470 0    50   ~ 0
+Text Label 7610 4470 0    50   ~ 0
 EN_T1
 Wire Notes Line
 	6570 6480 8280 6480
@@ -539,7 +539,7 @@ F 4 "C168485" H 5770 7160 50  0001 C CNN "LCSC Part"
 $EndComp
 Wire Wire Line
 	5770 7010 5770 6990
-Text Label 7910 5040 0    50   ~ 0
+Text Label 7610 5040 0    50   ~ 0
 EN_T2
 $Comp
 L power:+BATT #PWR0112
@@ -1100,7 +1100,7 @@ L Device:R_POT_US RV1
 U 1 1 5FDADE90
 P 6490 1570
 F 0 "RV1" V 6377 1570 50  0000 C CNN
-F 1 "R_POT_US" V 6286 1570 50  0000 C CNN
+F 1 "1M" V 6286 1570 50  0000 C CNN
 F 2 "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical" H 6490 1570 50  0001 C CNN
 F 3 "~" H 6490 1570 50  0001 C CNN
 F 4 "C719177" V 6490 1570 50  0001 C CNN "LCSC Part"
@@ -1588,50 +1588,6 @@ F 1 "MountingHole" H 10180 1265 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 10080 1310 50  0001 C CNN
 F 3 "~" H 10080 1310 50  0001 C CNN
 	1    10080 1310
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP13
-U 1 1 5FC8DEE2
-P 7760 4470
-F 0 "JP13" H 7760 4675 50  0000 C CNN
-F 1 "EN_T1" H 7760 4584 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7760 4470 50  0001 C CNN
-F 3 "~" H 7760 4470 50  0001 C CNN
-	1    7760 4470
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP14
-U 1 1 5FCA7ABF
-P 7760 5040
-F 0 "JP14" H 7760 5245 50  0000 C CNN
-F 1 "EN_T2" H 7760 5154 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7760 5040 50  0001 C CNN
-F 3 "~" H 7760 5040 50  0001 C CNN
-	1    7760 5040
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP15
-U 1 1 5FCA8A3F
-P 7760 5640
-F 0 "JP15" H 7760 5845 50  0000 C CNN
-F 1 "EN_T3" H 7760 5754 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7760 5640 50  0001 C CNN
-F 3 "~" H 7760 5640 50  0001 C CNN
-	1    7760 5640
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP16
-U 1 1 5FCA9630
-P 7760 6220
-F 0 "JP16" H 7760 6425 50  0000 C CNN
-F 1 "EN_T4" H 7760 6334 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7760 6220 50  0001 C CNN
-F 3 "~" H 7760 6220 50  0001 C CNN
-	1    7760 6220
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
