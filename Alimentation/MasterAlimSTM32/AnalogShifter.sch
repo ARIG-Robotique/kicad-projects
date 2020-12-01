@@ -1,0 +1,152 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small_US R26
+U 1 1 60B781F4
+P 4790 2950
+AR Path="/60B77901/60B781F4" Ref="R26"  Part="1" 
+AR Path="/60B9E536/60B781F4" Ref="R32"  Part="1" 
+AR Path="/60BB6D6E/60B781F4" Ref="R36"  Part="1" 
+AR Path="/60BB719E/60B781F4" Ref="R40"  Part="1" 
+AR Path="/60C868EA/60B781F4" Ref="R44"  Part="1" 
+AR Path="/60C872D4/60B781F4" Ref="R48"  Part="1" 
+F 0 "R48" H 4858 2996 50  0000 L CNN
+F 1 "1k" H 4858 2905 50  0000 L CNN
+F 2 "" H 4790 2950 50  0001 C CNN
+F 3 "~" H 4790 2950 50  0001 C CNN
+	1    4790 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R27
+U 1 1 60B78705
+P 4790 3310
+AR Path="/60B77901/60B78705" Ref="R27"  Part="1" 
+AR Path="/60B9E536/60B78705" Ref="R33"  Part="1" 
+AR Path="/60BB6D6E/60B78705" Ref="R37"  Part="1" 
+AR Path="/60BB719E/60B78705" Ref="R41"  Part="1" 
+AR Path="/60C868EA/60B78705" Ref="R45"  Part="1" 
+AR Path="/60C872D4/60B78705" Ref="R49"  Part="1" 
+F 0 "R49" H 4858 3356 50  0000 L CNN
+F 1 "2k" H 4858 3265 50  0000 L CNN
+F 2 "" H 4790 3310 50  0001 C CNN
+F 3 "~" H 4790 3310 50  0001 C CNN
+	1    4790 3310
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0161
+U 1 1 60B78AB4
+P 4790 3490
+AR Path="/60B77901/60B78AB4" Ref="#PWR0161"  Part="1" 
+AR Path="/60B9E536/60B78AB4" Ref="#PWR0163"  Part="1" 
+AR Path="/60BB6D6E/60B78AB4" Ref="#PWR0165"  Part="1" 
+AR Path="/60BB719E/60B78AB4" Ref="#PWR0167"  Part="1" 
+AR Path="/60C868EA/60B78AB4" Ref="#PWR0169"  Part="1" 
+AR Path="/60C872D4/60B78AB4" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0171" H 4790 3240 50  0001 C CNN
+F 1 "GND" H 4795 3317 50  0000 C CNN
+F 2 "" H 4790 3490 50  0001 C CNN
+F 3 "" H 4790 3490 50  0001 C CNN
+	1    4790 3490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4790 3490 4790 3410
+Wire Wire Line
+	4790 2670 4570 2670
+Wire Wire Line
+	4790 2670 4790 2850
+Wire Wire Line
+	4790 3210 4790 3120
+Text HLabel 4570 2670 0    50   Input ~ 0
+ANA_H1
+Wire Wire Line
+	4790 3120 5060 3120
+Connection ~ 4790 3120
+Wire Wire Line
+	4790 3120 4790 3050
+Text HLabel 5060 3120 2    50   Input ~ 0
+ANA_L1
+$Comp
+L Device:R_Small_US R30
+U 1 1 60B7A51D
+P 6030 2920
+AR Path="/60B77901/60B7A51D" Ref="R30"  Part="1" 
+AR Path="/60B9E536/60B7A51D" Ref="R34"  Part="1" 
+AR Path="/60BB6D6E/60B7A51D" Ref="R38"  Part="1" 
+AR Path="/60BB719E/60B7A51D" Ref="R42"  Part="1" 
+AR Path="/60C868EA/60B7A51D" Ref="R46"  Part="1" 
+AR Path="/60C872D4/60B7A51D" Ref="R50"  Part="1" 
+F 0 "R50" H 6098 2966 50  0000 L CNN
+F 1 "1k" H 6098 2875 50  0000 L CNN
+F 2 "" H 6030 2920 50  0001 C CNN
+F 3 "~" H 6030 2920 50  0001 C CNN
+	1    6030 2920
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R31
+U 1 1 60B7A565
+P 6030 3280
+AR Path="/60B77901/60B7A565" Ref="R31"  Part="1" 
+AR Path="/60B9E536/60B7A565" Ref="R35"  Part="1" 
+AR Path="/60BB6D6E/60B7A565" Ref="R39"  Part="1" 
+AR Path="/60BB719E/60B7A565" Ref="R43"  Part="1" 
+AR Path="/60C868EA/60B7A565" Ref="R47"  Part="1" 
+AR Path="/60C872D4/60B7A565" Ref="R51"  Part="1" 
+F 0 "R51" H 6098 3326 50  0000 L CNN
+F 1 "2k" H 6098 3235 50  0000 L CNN
+F 2 "" H 6030 3280 50  0001 C CNN
+F 3 "~" H 6030 3280 50  0001 C CNN
+	1    6030 3280
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0162
+U 1 1 60B7A56F
+P 6030 3460
+AR Path="/60B77901/60B7A56F" Ref="#PWR0162"  Part="1" 
+AR Path="/60B9E536/60B7A56F" Ref="#PWR0164"  Part="1" 
+AR Path="/60BB6D6E/60B7A56F" Ref="#PWR0166"  Part="1" 
+AR Path="/60BB719E/60B7A56F" Ref="#PWR0168"  Part="1" 
+AR Path="/60C868EA/60B7A56F" Ref="#PWR0170"  Part="1" 
+AR Path="/60C872D4/60B7A56F" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 6030 3210 50  0001 C CNN
+F 1 "GND" H 6035 3287 50  0000 C CNN
+F 2 "" H 6030 3460 50  0001 C CNN
+F 3 "" H 6030 3460 50  0001 C CNN
+	1    6030 3460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6030 3460 6030 3380
+Wire Wire Line
+	6030 2640 5810 2640
+Wire Wire Line
+	6030 2640 6030 2820
+Wire Wire Line
+	6030 3180 6030 3090
+Text HLabel 5810 2640 0    50   Input ~ 0
+ANA_H2
+Wire Wire Line
+	6030 3090 6300 3090
+Connection ~ 6030 3090
+Wire Wire Line
+	6030 3090 6030 3020
+Text HLabel 6300 3090 2    50   Input ~ 0
+ANA_L2
+$EndSCHEMATC
