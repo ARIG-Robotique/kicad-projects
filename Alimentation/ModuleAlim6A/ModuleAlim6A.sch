@@ -14,159 +14,54 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x05 J1
-U 1 1 5FC4AF0E
-P 1720 1530
-F 0 "J1" H 1800 1572 50  0000 L CNN
-F 1 "Conn_01x05" H 1800 1481 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 1720 1530 50  0001 C CNN
-F 3 "~" H 1720 1530 50  0001 C CNN
-	1    1720 1530
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR01
 U 1 1 5FC4BCDA
-P 1390 1220
-F 0 "#PWR01" H 1390 1070 50  0001 C CNN
-F 1 "+5V" H 1405 1393 50  0000 C CNN
-F 2 "" H 1390 1220 50  0001 C CNN
-F 3 "" H 1390 1220 50  0001 C CNN
-	1    1390 1220
+P 1250 1020
+F 0 "#PWR01" H 1250 870 50  0001 C CNN
+F 1 "+5V" H 1265 1193 50  0000 C CNN
+F 2 "" H 1250 1020 50  0001 C CNN
+F 3 "" H 1250 1020 50  0001 C CNN
+	1    1250 1020
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1520 1330 1390 1330
+	1380 1340 1250 1340
 Wire Wire Line
-	1390 1330 1390 1220
+	1250 1340 1250 1060
 $Comp
 L power:GND #PWR02
 U 1 1 5FC4CC06
-P 1390 1800
-F 0 "#PWR02" H 1390 1550 50  0001 C CNN
-F 1 "GND" H 1395 1627 50  0000 C CNN
-F 2 "" H 1390 1800 50  0001 C CNN
-F 3 "" H 1390 1800 50  0001 C CNN
-	1    1390 1800
+P 1250 1900
+F 0 "#PWR02" H 1250 1650 50  0001 C CNN
+F 1 "GND" H 1255 1727 50  0000 C CNN
+F 2 "" H 1250 1900 50  0001 C CNN
+F 3 "" H 1250 1900 50  0001 C CNN
+	1    1250 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1390 1800 1390 1730
+	1250 1900 1250 1840
 Wire Wire Line
-	1390 1730 1520 1730
-Text Label 1520 1430 2    50   ~ 0
+	1250 1740 1380 1740
+Text Label 1380 1440 2    50   ~ 0
 EN
-Text Label 1520 1530 2    50   ~ 0
+Text Label 1380 1540 2    50   ~ 0
 ANA_CURRENT
-Text Label 1520 1630 2    50   ~ 0
+Text Label 1380 1640 2    50   ~ 0
 ANA_VOLT
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5FC4E8FE
-P 1730 2590
-F 0 "J2" H 1810 2582 50  0000 L CNN
-F 1 "Conn_01x02" H 1810 2491 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal" H 1730 2590 50  0001 C CNN
-F 3 "~" H 1730 2590 50  0001 C CNN
-	1    1730 2590
-	1    0    0    1   
-$EndComp
 $Comp
 L power:+BATT #PWR03
 U 1 1 5FC4F200
-P 1390 2410
-F 0 "#PWR03" H 1390 2260 50  0001 C CNN
-F 1 "+BATT" H 1405 2583 50  0000 C CNN
-F 2 "" H 1390 2410 50  0001 C CNN
-F 3 "" H 1390 2410 50  0001 C CNN
-	1    1390 2410
+P 2550 2570
+F 0 "#PWR03" H 2550 2420 50  0001 C CNN
+F 1 "+BATT" H 2565 2743 50  0000 C CNN
+F 2 "" H 2550 2570 50  0001 C CNN
+F 3 "" H 2550 2570 50  0001 C CNN
+	1    2550 2570
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5FC50491
-P 1390 2680
-F 0 "#PWR04" H 1390 2430 50  0001 C CNN
-F 1 "GND" H 1395 2507 50  0000 C CNN
-F 2 "" H 1390 2680 50  0001 C CNN
-F 3 "" H 1390 2680 50  0001 C CNN
-	1    1390 2680
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1530 2490 1390 2490
-Wire Wire Line
-	1390 2490 1390 2410
-Wire Wire Line
-	1530 2590 1390 2590
-Wire Wire Line
-	1390 2590 1390 2680
-$Comp
-L power:GND #PWR05
-U 1 1 5FC5285A
-P 2840 2240
-F 0 "#PWR05" H 2840 1990 50  0001 C CNN
-F 1 "GND" H 2845 2067 50  0000 C CNN
-F 2 "" H 2840 2240 50  0001 C CNN
-F 3 "" H 2840 2240 50  0001 C CNN
-	1    2840 2240
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2970 2110 2840 2110
-Wire Wire Line
-	2840 2110 2840 2240
-Wire Wire Line
-	2970 2010 2840 2010
-Wire Wire Line
-	2840 2010 2840 2110
-Connection ~ 2840 2110
-Wire Wire Line
-	2970 1910 2840 1910
-Wire Wire Line
-	2840 1910 2840 2010
-Connection ~ 2840 2010
-Wire Wire Line
-	2970 1610 2840 1610
-Wire Wire Line
-	2970 1710 2840 1710
-Wire Wire Line
-	2840 1710 2840 1610
-Connection ~ 2840 1610
-Wire Wire Line
-	2840 1610 2810 1610
-Wire Wire Line
-	2970 1810 2840 1810
-Wire Wire Line
-	2840 1810 2840 1710
-Connection ~ 2840 1710
-Text Label 2810 1610 2    50   ~ 0
-OUT
-$Comp
-L ARIG:PTN78020W_EUK-7 U1
-U 1 1 5FC54862
-P 5480 1570
-F 0 "U1" H 5480 1937 50  0000 C CNN
-F 1 "PTN78020W_EUK-7" H 5480 1846 50  0000 C CNN
-F 2 "ARIG:Texas_EUK_R-PDSS-T7_THT" H 5380 1170 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ptn78020w.pdf" H 5455 1620 50  0001 C CNN
-	1    5480 1570
-	1    0    0    -1  
-$EndComp
-Text Label 4680 1570 2    50   ~ 0
+Text Label 4830 1960 2    50   ~ 0
 EN
-$Comp
-L Device:CP1 C2
-U 1 1 5FC55F57
-P 6540 1730
-F 0 "C2" H 6655 1821 50  0000 L CNN
-F 1 "330u" H 6655 1730 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_10x10" H 6540 1730 50  0001 C CNN
-F 3 "~" H 6540 1730 50  0001 C CNN
-F 4 "16V" H 6655 1639 50  0000 L CNN "Tension"
-	1    6540 1730
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+BATT #PWR06
 U 1 1 5FC582F6
@@ -241,28 +136,6 @@ F 3 "" H 6540 1880 50  0001 C CNN
 	1    6540 1880
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C1
-U 1 1 5FC576BA
-P 4300 1670
-F 0 "C1" H 4415 1716 50  0000 L CNN
-F 1 "2.2u" H 4415 1625 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4338 1520 50  0001 C CNN
-F 3 "~" H 4300 1670 50  0001 C CNN
-	1    4300 1670
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 5FC6BC12
-P 4830 1570
-F 0 "JP1" H 4830 1470 50  0000 C CNN
-F 1 "/INHIBIT" H 4830 1400 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4830 1570 50  0001 C CNN
-F 3 "~" H 4830 1570 50  0001 C CNN
-	1    4830 1570
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 1410 4300 1470
 Wire Wire Line
@@ -272,72 +145,6 @@ Wire Wire Line
 	4300 1470 4300 1520
 Text Label 6540 1470 0    50   ~ 0
 VO
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5FC7E51C
-P 2600 2730
-F 0 "H1" H 2700 2776 50  0000 L CNN
-F 1 "MountingHole" H 2700 2685 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 2730 50  0001 C CNN
-F 3 "~" H 2600 2730 50  0001 C CNN
-	1    2600 2730
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5FC7EC10
-P 2600 2910
-F 0 "H2" H 2700 2956 50  0000 L CNN
-F 1 "MountingHole" H 2700 2865 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 2910 50  0001 C CNN
-F 3 "~" H 2600 2910 50  0001 C CNN
-	1    2600 2910
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5FC7F13B
-P 2600 3100
-F 0 "H3" H 2700 3146 50  0000 L CNN
-F 1 "MountingHole" H 2700 3055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 3100 50  0001 C CNN
-F 3 "~" H 2600 3100 50  0001 C CNN
-	1    2600 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5FC7F691
-P 2600 3290
-F 0 "H4" H 2700 3336 50  0000 L CNN
-F 1 "MountingHole" H 2700 3245 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 3290 50  0001 C CNN
-F 3 "~" H 2600 3290 50  0001 C CNN
-	1    2600 3290
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R1
-U 1 1 5FCC3615
-P 7920 2800
-F 0 "R1" H 7988 2846 50  0000 L CNN
-F 1 "10K" H 7988 2755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7960 2790 50  0001 C CNN
-F 3 "~" H 7920 2800 50  0001 C CNN
-	1    7920 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R2
-U 1 1 5FCCAD49
-P 7920 3220
-F 0 "R2" H 7988 3266 50  0000 L CNN
-F 1 "6.2K" H 7988 3175 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7960 3210 50  0001 C CNN
-F 3 "~" H 7920 3220 50  0001 C CNN
-	1    7920 3220
-	1    0    0    -1  
-$EndComp
 Text Label 7920 2650 2    50   ~ 0
 OUT
 Wire Wire Line
@@ -363,50 +170,30 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5FCD2685
-P 1070 1260
-F 0 "#FLG01" H 1070 1335 50  0001 C CNN
-F 1 "PWR_FLAG" H 1070 1433 50  0000 C CNN
-F 2 "" H 1070 1260 50  0001 C CNN
-F 3 "~" H 1070 1260 50  0001 C CNN
-	1    1070 1260
+P 930 1270
+F 0 "#FLG01" H 930 1345 50  0001 C CNN
+F 1 "PWR_FLAG" H 930 1443 50  0000 C CNN
+F 2 "" H 930 1270 50  0001 C CNN
+F 3 "~" H 930 1270 50  0001 C CNN
+	1    930  1270
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5FCD2C43
-P 1070 2410
-F 0 "#FLG02" H 1070 2485 50  0001 C CNN
-F 1 "PWR_FLAG" H 1070 2583 50  0000 C CNN
-F 2 "" H 1070 2410 50  0001 C CNN
-F 3 "~" H 1070 2410 50  0001 C CNN
-	1    1070 2410
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG03
-U 1 1 5FCD337A
-P 2580 2070
-F 0 "#FLG03" H 2580 2145 50  0001 C CNN
-F 1 "PWR_FLAG" H 2580 2243 50  0000 C CNN
-F 2 "" H 2580 2070 50  0001 C CNN
-F 3 "~" H 2580 2070 50  0001 C CNN
-	1    2580 2070
-	1    0    0    -1  
+P 2500 2660
+F 0 "#FLG02" H 2500 2735 50  0001 C CNN
+F 1 "PWR_FLAG" H 2500 2833 50  0000 C CNN
+F 2 "" H 2500 2660 50  0001 C CNN
+F 3 "~" H 2500 2660 50  0001 C CNN
+	1    2500 2660
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	1390 1330 1070 1330
+	1250 1340 930  1340
 Wire Wire Line
-	1070 1330 1070 1260
-Connection ~ 1390 1330
-Wire Wire Line
-	1390 2490 1070 2490
-Wire Wire Line
-	1070 2490 1070 2410
-Connection ~ 1390 2490
-Wire Wire Line
-	2580 2070 2580 2110
-Wire Wire Line
-	2580 2110 2840 2110
+	930  1340 930  1270
+Connection ~ 1250 1340
 Wire Notes Line
 	670  3660 3760 3660
 Wire Notes Line
@@ -465,41 +252,6 @@ F 3 "" H 9920 1800 50  0001 C CNN
 	1    9920 1800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP1 C5
-U 1 1 5FC8C0AE
-P 10400 1650
-F 0 "C5" H 10515 1741 50  0000 L CNN
-F 1 "1u" H 10515 1650 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 10400 1650 50  0001 C CNN
-F 3 "~" H 10400 1650 50  0001 C CNN
-F 4 "16V" H 10515 1559 50  0000 L CNN "Tension"
-	1    10400 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5FC8BA0F
-P 9920 1650
-F 0 "C4" H 10035 1741 50  0000 L CNN
-F 1 "100n" H 10035 1650 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9958 1500 50  0001 C CNN
-F 3 "~" H 9920 1650 50  0001 C CNN
-F 4 "16V" H 10035 1559 50  0000 L CNN "Tension"
-	1    9920 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Fuse F1
-U 1 1 5FC87499
-P 7930 1840
-F 0 "F1" V 7733 1840 50  0000 C CNN
-F 1 "6A" V 7824 1840 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 7860 1840 50  0001 C CNN
-F 3 "~" H 7930 1840 50  0001 C CNN
-	1    7930 1840
-	0    1    1    0   
-$EndComp
 Text Label 8230 1440 2    50   ~ 0
 VO
 $Comp
@@ -531,18 +283,6 @@ F 3 "" H 9120 2120 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
-U 1 1 5FC7BEB1
-P 9120 1970
-F 0 "C3" H 9235 2061 50  0000 L CNN
-F 1 "1n" H 9235 1970 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9158 1820 50  0001 C CNN
-F 3 "~" H 9120 1970 50  0001 C CNN
-F 4 "16V" H 9235 1879 50  0000 L CNN "Tension"
-	1    9120 1970
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR014
 U 1 1 5FC7A560
 P 8630 2040
@@ -551,17 +291,6 @@ F 1 "GND" H 8635 1867 50  0000 C CNN
 F 2 "" H 8630 2040 50  0001 C CNN
 F 3 "" H 8630 2040 50  0001 C CNN
 	1    8630 2040
-	1    0    0    -1  
-$EndComp
-$Comp
-L Sensor_Current:ACS712xLCTR-20A U2
-U 1 1 5FC76F5E
-P 8630 1640
-F 0 "U2" H 8730 2080 50  0000 C CNN
-F 1 "ACS712xLCTR-20A" H 9040 2000 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8730 1290 50  0001 L CIN
-F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 8630 1640 50  0001 C CNN
-	1    8630 1640
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -575,18 +304,7 @@ F 3 "" H 5980 2360 50  0001 C CNN
 	1    5980 2360
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_POT_US RV1
-U 1 1 5FC5D096
-P 5980 2210
-F 0 "RV1" H 5912 2256 50  0000 R CNN
-F 1 "1M" H 5912 2165 50  0000 R CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical" H 5980 2210 50  0001 C CNN
-F 3 "~" H 5980 2210 50  0001 C CNN
-	1    5980 2210
-	1    0    0    -1  
-$EndComp
-Text Notes 1950 850  0    50   ~ 0
+Text Notes 1810 860  0    50   ~ 0
 Connecteurs
 Wire Notes Line
 	3910 690  3910 2660
@@ -618,15 +336,342 @@ Text Notes 8350 2490 0    50   ~ 0
 Diviseur de tension
 Text Notes 8860 2900 0    50   ~ 0
 Tension max de sortie 12.6 -> 13 V\n\nANA_VOLT = OUT * (R2 / (R1+R2))\n4.975 = 13 * (10k / (10k + 6.2k))
+Wire Wire Line
+	1880 1740 2010 1740
+Wire Wire Line
+	2010 1740 2010 1840
+Wire Wire Line
+	2010 1840 1250 1840
+Connection ~ 1250 1840
+Wire Wire Line
+	1250 1840 1250 1740
+Wire Wire Line
+	1880 1340 1950 1340
+Wire Wire Line
+	1950 1340 1950 1060
+Wire Wire Line
+	1950 1060 1250 1060
+Connection ~ 1250 1060
+Wire Wire Line
+	1250 1060 1250 1020
+Text Label 1880 1440 0    50   ~ 0
+EN
+Text Label 1880 1540 0    50   ~ 0
+ANA_CURRENT
+Text Label 1880 1640 0    50   ~ 0
+ANA_VOLT
 $Comp
-L Connector:Screw_Terminal_01x06 J3
-U 1 1 5FD8AC99
-P 3170 1810
-F 0 "J3" H 3250 1802 50  0000 L CNN
-F 1 "OUTPUT" H 3250 1711 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-6-5.0-H_1x06_P5.00mm_Horizontal" H 3170 1810 50  0001 C CNN
-F 3 "~" H 3170 1810 50  0001 C CNN
-	1    3170 1810
+L power:GND #PWR020
+U 1 1 5FCC16E6
+P 860 2990
+F 0 "#PWR020" H 860 2740 50  0001 C CNN
+F 1 "GND" H 865 2817 50  0000 C CNN
+F 2 "" H 860 2990 50  0001 C CNN
+F 3 "" H 860 2990 50  0001 C CNN
+	1    860  2990
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	960  2310 860  2310
+Wire Wire Line
+	860  2310 860  2500
+Wire Wire Line
+	960  2890 860  2890
+Connection ~ 860  2890
+Wire Wire Line
+	860  2890 860  2990
+Wire Wire Line
+	960  2700 860  2700
+Connection ~ 860  2700
+Wire Wire Line
+	860  2700 860  2890
+Wire Wire Line
+	960  2500 860  2500
+Connection ~ 860  2500
+Wire Wire Line
+	860  2500 860  2700
+$Comp
+L power:GND #PWR05
+U 1 1 5FC5285A
+P 2940 2790
+F 0 "#PWR05" H 2940 2540 50  0001 C CNN
+F 1 "GND" H 2945 2617 50  0000 C CNN
+F 2 "" H 2940 2790 50  0001 C CNN
+F 3 "" H 2940 2790 50  0001 C CNN
+	1    2940 2790
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3180 2460 2940 2460
+Wire Wire Line
+	2940 2460 2940 2560
+Connection ~ 2940 2560
+Wire Wire Line
+	3180 2560 2940 2560
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5FCD337A
+P 2940 2360
+F 0 "#FLG03" H 2940 2435 50  0001 C CNN
+F 1 "PWR_FLAG" H 2940 2533 50  0000 C CNN
+F 2 "" H 2940 2360 50  0001 C CNN
+F 3 "~" H 2940 2360 50  0001 C CNN
+	1    2940 2360
+	0    -1   -1   0   
+$EndComp
+Text Label 3020 2060 2    50   ~ 0
+OUT
+Wire Wire Line
+	3050 2060 3020 2060
+Connection ~ 3050 2060
+Wire Wire Line
+	3180 2060 3050 2060
+Wire Wire Line
+	3050 2160 3050 2060
+Wire Wire Line
+	3180 2160 3050 2160
+Wire Wire Line
+	4830 1860 4830 1570
+Wire Wire Line
+	4830 1570 4980 1570
+$Comp
+L ARIG:PTN78020W_EUK-7 U1
+U 1 1 5FC54862
+P 5480 1570
+F 0 "U1" H 5480 1937 50  0000 C CNN
+F 1 "PTN78020W_EUK-7" H 5480 1846 50  0000 C CNN
+F 2 "ARIG:Texas_EUK_R-PDSS-T7_THT" H 5380 1170 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ptn78020w.pdf" H 5455 1620 50  0001 C CNN
+F 4 "0" H 5480 1570 50  0001 C CNN "JLCPCB BOM"
+	1    5480 1570
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5FC55F57
+P 6540 1730
+F 0 "C2" H 6655 1821 50  0000 L CNN
+F 1 "330u" H 6655 1730 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 6540 1730 50  0001 C CNN
+F 3 "~" H 6540 1730 50  0001 C CNN
+F 4 "25V" H 6655 1639 50  0000 L CNN "Tension"
+F 5 "C249647" H 6540 1730 50  0001 C CNN "LCSC Part"
+	1    6540 1730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FC576BA
+P 4300 1670
+F 0 "C1" H 4415 1716 50  0000 L CNN
+F 1 "2.2u" H 4415 1625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4338 1520 50  0001 C CNN
+F 3 "~" H 4300 1670 50  0001 C CNN
+F 4 "50V" H 4480 1550 50  0000 C CNN "Tension"
+F 5 "C282852" H 4300 1670 50  0001 C CNN "LCSC Part"
+	1    4300 1670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5FCC3615
+P 7920 2800
+F 0 "R1" H 7988 2846 50  0000 L CNN
+F 1 "10K" H 7988 2755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7960 2790 50  0001 C CNN
+F 3 "~" H 7920 2800 50  0001 C CNN
+F 4 "C191317" H 7920 2800 50  0001 C CNN "LCSC Part"
+	1    7920 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5FCCAD49
+P 7920 3220
+F 0 "R2" H 7988 3266 50  0000 L CNN
+F 1 "6.2K" H 7988 3175 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7960 3210 50  0001 C CNN
+F 3 "~" H 7920 3220 50  0001 C CNN
+F 4 "C413691" H 7920 3220 50  0001 C CNN "LCSC Part"
+	1    7920 3220
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C5
+U 1 1 5FC8C0AE
+P 10400 1650
+F 0 "C5" H 10515 1741 50  0000 L CNN
+F 1 "1u" H 10515 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 10400 1650 50  0001 C CNN
+F 3 "~" H 10400 1650 50  0001 C CNN
+F 4 "16V" H 10515 1559 50  0000 L CNN "Tension"
+F 5 "C249445" H 10400 1650 50  0001 C CNN "LCSC Part"
+	1    10400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5FC8BA0F
+P 9920 1650
+F 0 "C4" H 10035 1741 50  0000 L CNN
+F 1 "100n" H 10035 1650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9958 1500 50  0001 C CNN
+F 3 "~" H 9920 1650 50  0001 C CNN
+F 4 "16V" H 10035 1559 50  0000 L CNN "Tension"
+F 5 "C80516" H 9920 1650 50  0001 C CNN "LCSC Part"
+	1    9920 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5FC87499
+P 7930 1840
+F 0 "F1" V 7733 1840 50  0000 C CNN
+F 1 "6A" V 7824 1840 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 7860 1840 50  0001 C CNN
+F 3 "~" H 7930 1840 50  0001 C CNN
+F 4 "0" H 7930 1840 50  0001 C CNN "JLCPCB BOM"
+	1    7930 1840
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FC7BEB1
+P 9120 1970
+F 0 "C3" H 9235 2061 50  0000 L CNN
+F 1 "1n" H 9235 1970 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9158 1820 50  0001 C CNN
+F 3 "~" H 9120 1970 50  0001 C CNN
+F 4 "16V" H 9235 1879 50  0000 L CNN "Tension"
+F 5 "C163169" H 9120 1970 50  0001 C CNN "LCSC Part"
+	1    9120 1970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Current:ACS712xLCTR-20A U2
+U 1 1 5FC76F5E
+P 8630 1640
+F 0 "U2" H 8730 2080 50  0000 C CNN
+F 1 "ACS712xLCTR-20A" H 9040 2000 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8730 1290 50  0001 L CIN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx?la=en" H 8630 1640 50  0001 C CNN
+F 4 "C10681" H 8630 1640 50  0001 C CNN "LCSC Part"
+	1    8630 1640
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_US RV1
+U 1 1 5FC5D096
+P 5980 2210
+F 0 "RV1" H 5912 2256 50  0000 R CNN
+F 1 "1M" H 5912 2165 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 5980 2210 50  0001 C CNN
+F 3 "~" H 5980 2210 50  0001 C CNN
+F 4 "0" H 5980 2210 50  0001 C CNN "JLCPCB BOM"
+	1    5980 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 5FC98ACB
+P 1580 1540
+F 0 "J1" H 1630 1957 50  0000 C CNN
+F 1 "Cmd" H 1630 1866 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1580 1540 50  0001 C CNN
+F 3 "~" H 1580 1540 50  0001 C CNN
+F 4 "0" H 1580 1540 50  0001 C CNN "JLCPCB BOM"
+	1    1580 1540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FCBB4F3
+P 1060 2310
+F 0 "H1" V 1014 2460 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1105 2460 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1060 2310 50  0001 C CNN
+F 3 "~" H 1060 2310 50  0001 C CNN
+F 4 "0" H 1060 2310 50  0001 C CNN "JLCPCB BOM"
+	1    1060 2310
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FCC0703
+P 1060 2500
+F 0 "H2" V 1014 2650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1105 2650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1060 2500 50  0001 C CNN
+F 3 "~" H 1060 2500 50  0001 C CNN
+F 4 "0" H 1060 2500 50  0001 C CNN "JLCPCB BOM"
+	1    1060 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FCC0C8C
+P 1060 2700
+F 0 "H3" V 1014 2850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1105 2850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1060 2700 50  0001 C CNN
+F 3 "~" H 1060 2700 50  0001 C CNN
+F 4 "0" H 1060 2700 50  0001 C CNN "JLCPCB BOM"
+	1    1060 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5FCC110F
+P 1060 2890
+F 0 "H4" V 1014 3040 50  0000 L CNN
+F 1 "MountingHole_Pad" V 1105 3040 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1060 2890 50  0001 C CNN
+F 3 "~" H 1060 2890 50  0001 C CNN
+F 4 "0" H 1060 2890 50  0001 C CNN "JLCPCB BOM"
+	1    1060 2890
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5FD2BFF4
+P 5030 1860
+F 0 "J4" H 5002 1834 50  0000 R CNN
+F 1 "INHIBIT" H 5002 1743 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5030 1860 50  0001 C CNN
+F 3 "~" H 5030 1860 50  0001 C CNN
+F 4 "0" H 5030 1860 50  0001 C CNN "JLCPCB BOM"
+	1    5030 1860
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x07 J2
+U 1 1 5FDC4CE6
+P 3380 2360
+F 0 "J2" H 3298 1835 50  0000 C CNN
+F 1 "POWER" H 3298 1926 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-7-5.08_1x07_P5.08mm_Horizontal" H 3380 2360 50  0001 C CNN
+F 3 "~" H 3380 2360 50  0001 C CNN
+	1    3380 2360
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3180 2260 3050 2260
+Wire Wire Line
+	3050 2260 3050 2160
+Connection ~ 3050 2160
+Wire Wire Line
+	2940 2360 2940 2460
+Connection ~ 2940 2460
+Wire Wire Line
+	2940 2360 3180 2360
+Wire Wire Line
+	2940 2560 2940 2790
+Connection ~ 2940 2360
+Wire Wire Line
+	2500 2660 2550 2660
+Wire Wire Line
+	2550 2660 2550 2570
+Wire Wire Line
+	3180 2660 2550 2660
+Connection ~ 2550 2660
 $EndSCHEMATC
