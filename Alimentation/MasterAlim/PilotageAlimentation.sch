@@ -1,0 +1,302 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 601CFDAA
+P 4020 2770
+AR Path="/601CFDAA" Ref="J?"  Part="1" 
+AR Path="/60167E1F/601CFDAA" Ref="J4"  Part="1" 
+AR Path="/602E5506/601CFDAA" Ref="J6"  Part="1" 
+AR Path="/602E5F64/601CFDAA" Ref="J8"  Part="1" 
+AR Path="/602E5F6A/601CFDAA" Ref="J12"  Part="1" 
+F 0 "J6" H 3938 2445 50  0000 C CNN
+F 1 "INHIBIT" H 3938 2536 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 4020 2770 50  0001 C CNN
+F 3 "~" H 4020 2770 50  0001 C CNN
+F 4 "0" H 4020 2770 50  0001 C CNN "JLCPCB BOM"
+	1    4020 2770
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4340 2770 4270 2770
+Wire Wire Line
+	4220 2870 4270 2870
+Wire Wire Line
+	4270 2870 4270 2770
+Connection ~ 4270 2770
+Wire Wire Line
+	4270 2770 4220 2770
+$Comp
+L 74xGxx:74LVC1G02 U?
+U 1 1 601CFDB7
+P 5520 3660
+AR Path="/601CFDB7" Ref="U?"  Part="1" 
+AR Path="/60167E1F/601CFDB7" Ref="U1"  Part="1" 
+AR Path="/602E5506/601CFDB7" Ref="U2"  Part="1" 
+AR Path="/602E5F64/601CFDB7" Ref="U3"  Part="1" 
+AR Path="/602E5F6A/601CFDB7" Ref="U4"  Part="1" 
+F 0 "U2" H 5690 3860 50  0000 C CNN
+F 1 "74LVC1G02" H 5850 3790 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5520 3660 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5520 3660 50  0001 C CNN
+F 4 "C16360" H 5520 3660 50  0001 C CNN "LCSC Part"
+	1    5520 3660
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601CFDC0
+P 5520 3760
+AR Path="/601CFDC0" Ref="#PWR?"  Part="1" 
+AR Path="/60167E1F/601CFDC0" Ref="#PWR013"  Part="1" 
+AR Path="/602E5506/601CFDC0" Ref="#PWR022"  Part="1" 
+AR Path="/602E5F64/601CFDC0" Ref="#PWR029"  Part="1" 
+AR Path="/602E5F6A/601CFDC0" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 5520 3510 50  0001 C CNN
+F 1 "GND" H 5525 3587 50  0000 C CNN
+F 2 "" H 5520 3760 50  0001 C CNN
+F 3 "" H 5520 3760 50  0001 C CNN
+	1    5520 3760
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 601CFDC6
+P 5520 3560
+AR Path="/601CFDC6" Ref="#PWR?"  Part="1" 
+AR Path="/60167E1F/601CFDC6" Ref="#PWR012"  Part="1" 
+AR Path="/602E5506/601CFDC6" Ref="#PWR021"  Part="1" 
+AR Path="/602E5F64/601CFDC6" Ref="#PWR028"  Part="1" 
+AR Path="/602E5F6A/601CFDC6" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 5520 3410 50  0001 C CNN
+F 1 "+5V" H 5535 3733 50  0000 C CNN
+F 2 "" H 5520 3560 50  0001 C CNN
+F 3 "" H 5520 3560 50  0001 C CNN
+	1    5520 3560
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 601CFDCE
+P 5780 2680
+AR Path="/601CFDCE" Ref="C?"  Part="1" 
+AR Path="/60C96C2B/601CFDCE" Ref="C?"  Part="1" 
+AR Path="/60167E1F/601CFDCE" Ref="C2"  Part="1" 
+AR Path="/602E5506/601CFDCE" Ref="C6"  Part="1" 
+AR Path="/602E5F64/601CFDCE" Ref="C8"  Part="1" 
+AR Path="/602E5F6A/601CFDCE" Ref="C10"  Part="1" 
+F 0 "C6" H 5895 2726 50  0000 L CNN
+F 1 "100n" H 5895 2635 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5818 2530 50  0001 C CNN
+F 3 "~" H 5780 2680 50  0001 C CNN
+F 4 "C80516" H 5780 2680 50  0001 C CNN "LCSC Part"
+F 5 "16V" H 5780 2680 50  0001 C CNN "Tension"
+	1    5780 2680
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 601CFDD6
+P 5380 2680
+AR Path="/601CFDD6" Ref="C?"  Part="1" 
+AR Path="/60C96C2B/601CFDD6" Ref="C?"  Part="1" 
+AR Path="/60167E1F/601CFDD6" Ref="C1"  Part="1" 
+AR Path="/602E5506/601CFDD6" Ref="C3"  Part="1" 
+AR Path="/602E5F64/601CFDD6" Ref="C7"  Part="1" 
+AR Path="/602E5F6A/601CFDD6" Ref="C9"  Part="1" 
+F 0 "C3" H 5495 2726 50  0000 L CNN
+F 1 "1u" H 5495 2635 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 5380 2680 50  0001 C CNN
+F 3 "~" H 5380 2680 50  0001 C CNN
+F 4 "16V" H 5570 2550 50  0000 C CNN "Tension"
+F 5 "C249445" H 5380 2680 50  0001 C CNN "LCSC Part"
+	1    5380 2680
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 601CFDDC
+P 5380 2450
+AR Path="/601CFDDC" Ref="#PWR?"  Part="1" 
+AR Path="/60C96C2B/601CFDDC" Ref="#PWR?"  Part="1" 
+AR Path="/60167E1F/601CFDDC" Ref="#PWR010"  Part="1" 
+AR Path="/602E5506/601CFDDC" Ref="#PWR017"  Part="1" 
+AR Path="/602E5F64/601CFDDC" Ref="#PWR026"  Part="1" 
+AR Path="/602E5F6A/601CFDDC" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 5380 2300 50  0001 C CNN
+F 1 "+5V" H 5395 2623 50  0000 C CNN
+F 2 "" H 5380 2450 50  0001 C CNN
+F 3 "" H 5380 2450 50  0001 C CNN
+	1    5380 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601CFDE2
+P 5380 2920
+AR Path="/601CFDE2" Ref="#PWR?"  Part="1" 
+AR Path="/60C96C2B/601CFDE2" Ref="#PWR?"  Part="1" 
+AR Path="/60167E1F/601CFDE2" Ref="#PWR011"  Part="1" 
+AR Path="/602E5506/601CFDE2" Ref="#PWR018"  Part="1" 
+AR Path="/602E5F64/601CFDE2" Ref="#PWR027"  Part="1" 
+AR Path="/602E5F6A/601CFDE2" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 5380 2670 50  0001 C CNN
+F 1 "GND" H 5385 2747 50  0000 C CNN
+F 2 "" H 5380 2920 50  0001 C CNN
+F 3 "" H 5380 2920 50  0001 C CNN
+	1    5380 2920
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5380 2530 5380 2470
+Wire Wire Line
+	5380 2920 5380 2880
+Connection ~ 5380 2880
+Wire Wire Line
+	5380 2880 5380 2830
+Wire Wire Line
+	5780 2830 5780 2880
+Wire Wire Line
+	5780 2880 5380 2880
+Connection ~ 5380 2470
+Wire Wire Line
+	5380 2470 5380 2450
+Wire Wire Line
+	5780 2530 5780 2470
+Wire Wire Line
+	5780 2470 5380 2470
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 601E718F
+P 4020 3430
+AR Path="/601E718F" Ref="J?"  Part="1" 
+AR Path="/60167E1F/601E718F" Ref="J5"  Part="1" 
+AR Path="/602E5506/601E718F" Ref="J7"  Part="1" 
+AR Path="/602E5F64/601E718F" Ref="J9"  Part="1" 
+AR Path="/602E5F6A/601E718F" Ref="J13"  Part="1" 
+F 0 "J7" H 4100 3422 50  0000 L CNN
+F 1 "ToRegul" H 4100 3331 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 4020 3430 50  0001 C CNN
+F 3 "~" H 4020 3430 50  0001 C CNN
+F 4 "0" H 4020 3430 50  0001 C CNN "JLCPCB BOM"
+	1    4020 3430
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 601E7195
+P 4330 3390
+AR Path="/601E7195" Ref="#PWR?"  Part="1" 
+AR Path="/60167E1F/601E7195" Ref="#PWR08"  Part="1" 
+AR Path="/602E5506/601E7195" Ref="#PWR015"  Part="1" 
+AR Path="/602E5F64/601E7195" Ref="#PWR024"  Part="1" 
+AR Path="/602E5F6A/601E7195" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 4330 3240 50  0001 C CNN
+F 1 "+BATT" H 4345 3563 50  0000 C CNN
+F 2 "" H 4330 3390 50  0001 C CNN
+F 3 "" H 4330 3390 50  0001 C CNN
+	1    4330 3390
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601E9CE7
+P 4330 3580
+AR Path="/601E9CE7" Ref="#PWR?"  Part="1" 
+AR Path="/60167E1F/601E9CE7" Ref="#PWR09"  Part="1" 
+AR Path="/602E5506/601E9CE7" Ref="#PWR016"  Part="1" 
+AR Path="/602E5F64/601E9CE7" Ref="#PWR025"  Part="1" 
+AR Path="/602E5F6A/601E9CE7" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 4330 3330 50  0001 C CNN
+F 1 "GND" H 4335 3407 50  0000 C CNN
+F 2 "" H 4330 3580 50  0001 C CNN
+F 3 "" H 4330 3580 50  0001 C CNN
+	1    4330 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4330 3530 4330 3580
+Wire Wire Line
+	4330 3390 4330 3430
+Wire Wire Line
+	4330 3530 4220 3530
+Wire Wire Line
+	4330 3430 4220 3430
+Text HLabel 5220 3610 0    50   Input ~ 0
+A
+Text HLabel 5220 3710 0    50   Input ~ 0
+B
+Text HLabel 5770 3660 2    50   Input ~ 0
+Y
+Text HLabel 4340 2770 2    50   Input ~ 0
+Y
+$Comp
+L Device:LED D4
+U 1 1 602A722E
+P 6610 3320
+AR Path="/60167E1F/602A722E" Ref="D4"  Part="1" 
+AR Path="/602E5506/602A722E" Ref="D5"  Part="1" 
+AR Path="/602E5F64/602A722E" Ref="D6"  Part="1" 
+AR Path="/602E5F6A/602A722E" Ref="D8"  Part="1" 
+F 0 "D5" V 6694 3202 50  0000 R CNN
+F 1 "ENABLE REGUL" V 6603 3202 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6610 3320 50  0001 C CNN
+F 3 "~" H 6610 3320 50  0001 C CNN
+F 4 "Yellow" V 6512 3202 50  0000 R CNN "Color"
+F 5 "C74346" V 6610 3320 50  0001 C CNN "LCSC Part"
+	1    6610 3320
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 602A7235
+P 6610 3020
+AR Path="/60167E1F/602A7235" Ref="R5"  Part="1" 
+AR Path="/602E5506/602A7235" Ref="R6"  Part="1" 
+AR Path="/602E5F64/602A7235" Ref="R7"  Part="1" 
+AR Path="/602E5F6A/602A7235" Ref="R8"  Part="1" 
+F 0 "R6" H 6678 3066 50  0000 L CNN
+F 1 "150" H 6678 2975 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6650 3010 50  0001 C CNN
+F 3 "~" H 6610 3020 50  0001 C CNN
+F 4 "C17471" H 6610 3020 50  0001 C CNN "LCSC Part"
+	1    6610 3020
+	1    0    0    -1  
+$EndComp
+Text HLabel 6540 2780 0    50   Input ~ 0
+Y
+Wire Wire Line
+	6540 2780 6610 2780
+Wire Wire Line
+	6610 2780 6610 2870
+$Comp
+L power:GND #PWR?
+U 1 1 602A8185
+P 6610 3470
+AR Path="/602A8185" Ref="#PWR?"  Part="1" 
+AR Path="/60C96C2B/602A8185" Ref="#PWR?"  Part="1" 
+AR Path="/60167E1F/602A8185" Ref="#PWR014"  Part="1" 
+AR Path="/602E5506/602A8185" Ref="#PWR023"  Part="1" 
+AR Path="/602E5F64/602A8185" Ref="#PWR030"  Part="1" 
+AR Path="/602E5F6A/602A8185" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 6610 3220 50  0001 C CNN
+F 1 "GND" H 6615 3297 50  0000 C CNN
+F 2 "" H 6610 3470 50  0001 C CNN
+F 3 "" H 6610 3470 50  0001 C CNN
+	1    6610 3470
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

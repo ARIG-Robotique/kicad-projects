@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Logo_ARIG_12_6x6_6
+D Logo Association ARIG
+K Logo
+$ENDCMP
+#
 $CMP PCF8575
 D 16 Bit Port/Expander to I2C Bus, DIP/SOIC-24
 K I2C Expander
