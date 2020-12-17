@@ -450,67 +450,6 @@ F 3 "" H 3160 1920 50  0001 C CNN
 	1    3160 1920
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H6
-U 1 1 5FFF4E9C
-P 9060 970
-F 0 "H6" V 9014 1120 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9105 1120 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9060 970 50  0001 C CNN
-F 3 "~" H 9060 970 50  0001 C CNN
-F 4 "0" H 9060 970 50  0001 C CNN "JLCPCB BOM"
-	1    9060 970 
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H7
-U 1 1 5FFF4EA7
-P 9060 1160
-F 0 "H7" V 9014 1310 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9105 1310 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9060 1160 50  0001 C CNN
-F 3 "~" H 9060 1160 50  0001 C CNN
-F 4 "0" H 9060 1160 50  0001 C CNN "JLCPCB BOM"
-	1    9060 1160
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H8
-U 1 1 5FFF4EB2
-P 9070 1350
-F 0 "H8" V 9024 1500 50  0000 L CNN
-F 1 "MountingHole_Pad" V 9115 1500 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9070 1350 50  0001 C CNN
-F 3 "~" H 9070 1350 50  0001 C CNN
-F 4 "0" H 9070 1350 50  0001 C CNN "JLCPCB BOM"
-	1    9070 1350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 5FFF4EBC
-P 8900 1500
-F 0 "#PWR06" H 8900 1250 50  0001 C CNN
-F 1 "GND" H 8905 1327 50  0000 C CNN
-F 2 "" H 8900 1500 50  0001 C CNN
-F 3 "" H 8900 1500 50  0001 C CNN
-	1    8900 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8960 970  8900 970 
-Wire Wire Line
-	8960 1160 8900 1160
-Connection ~ 8900 1160
-Wire Wire Line
-	8900 1160 8900 970 
-Wire Wire Line
-	8970 1350 8900 1350
-Connection ~ 8900 1350
-Wire Wire Line
-	8900 1350 8900 1160
-Wire Wire Line
-	8900 1350 8900 1500
 Wire Wire Line
 	1850 2000 2010 2000
 Text Label 3280 5750 0    50   ~ 0
@@ -656,5 +595,22 @@ Wire Wire Line
 Wire Wire Line
 	2690 5750 2860 5750
 Wire Wire Line
-	10100 940  10100 1320
+	10100 940  10100 1130
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FEFEFD7
+P 10260 1130
+F 0 "H3" V 10214 1280 50  0000 L CNN
+F 1 "MountingHole_Pad" V 10305 1280 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10260 1130 50  0001 C CNN
+F 3 "~" H 10260 1130 50  0001 C CNN
+F 4 "0" H 10260 1130 50  0001 C CNN "JLCPCB BOM"
+	1    10260 1130
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10160 1130 10100 1130
+Connection ~ 10100 1130
+Wire Wire Line
+	10100 1130 10100 1320
 $EndSCHEMATC
