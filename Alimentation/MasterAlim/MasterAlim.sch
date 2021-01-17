@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+BATT #PWR0101
-U 1 1 5FB579E7
-P 2010 1950
-F 0 "#PWR0101" H 2010 1800 50  0001 C CNN
-F 1 "+BATT" H 2025 2123 50  0000 C CNN
-F 2 "" H 2010 1950 50  0001 C CNN
-F 3 "" H 2010 1950 50  0001 C CNN
-	1    2010 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x05_Odd_Even J1
 U 1 1 5FB5E619
 P 1920 1350
@@ -89,17 +78,6 @@ Wire Notes Line
 	5830 6910 5830 2850
 Wire Notes Line
 	1830 2840 1830 6910
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5FB5E21F
-P 4980 1050
-F 0 "#FLG0101" H 4980 1125 50  0001 C CNN
-F 1 "PWR_FLAG" H 4980 1223 50  0000 C CNN
-F 2 "" H 4980 1050 50  0001 C CNN
-F 3 "~" H 4980 1050 50  0001 C CNN
-	1    4980 1050
-	-1   0    0    1   
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5FB74D71
@@ -182,17 +160,6 @@ $EndComp
 Text Label 3400 4060 0    50   ~ 0
 PIL_T3
 $Comp
-L power:+BATT #PWR0112
-U 1 1 60077FA1
-P 4980 1050
-F 0 "#PWR0112" H 4980 900 50  0001 C CNN
-F 1 "+BATT" H 4995 1223 50  0000 C CNN
-F 2 "" H 4980 1050 50  0001 C CNN
-F 3 "" H 4980 1050 50  0001 C CNN
-	1    4980 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J11
 U 1 1 5FE50864
 P 2490 5750
@@ -250,17 +217,6 @@ $EndSheet
 Text Label 3400 3680 0    50   ~ 0
 IRQ
 $Comp
-L power:GND #PWR03
-U 1 1 611B3F0A
-P 1850 2100
-F 0 "#PWR03" H 1850 1850 50  0001 C CNN
-F 1 "GND" H 1855 1927 50  0000 C CNN
-F 2 "" H 1850 2100 50  0001 C CNN
-F 3 "" H 1850 2100 50  0001 C CNN
-	1    1850 2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FD662F5
 P 5840 1050
@@ -298,18 +254,6 @@ $EndComp
 Wire Notes Line
 	1830 2840 5830 2840
 $Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 5FF5487A
-P 1650 2000
-F 0 "J3" H 1568 2217 50  0000 C CNN
-F 1 "Batt IN" H 1568 2126 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 1650 2000 50  0001 C CNN
-F 3 "~" H 1650 2000 50  0001 C CNN
-F 4 "0" H 1650 2000 50  0001 C CNN "JLCPCB BOM"
-	1    1650 2000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5FCE2530
 P 10250 740
@@ -334,26 +278,14 @@ F 4 "0" H 10260 940 50  0001 C CNN "JLCPCB BOM"
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 5FCE34CF
-P 10270 1320
-F 0 "H4" V 10224 1470 50  0000 L CNN
-F 1 "MountingHole_Pad" V 10315 1470 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 10270 1320 50  0001 C CNN
-F 3 "~" H 10270 1320 50  0001 C CNN
-F 4 "0" H 10270 1320 50  0001 C CNN "JLCPCB BOM"
-	1    10270 1320
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR041
 U 1 1 5FCE38AF
-P 10100 1470
-F 0 "#PWR041" H 10100 1220 50  0001 C CNN
-F 1 "GND" H 10105 1297 50  0000 C CNN
-F 2 "" H 10100 1470 50  0001 C CNN
-F 3 "" H 10100 1470 50  0001 C CNN
-	1    10100 1470
+P 10100 1170
+F 0 "#PWR041" H 10100 920 50  0001 C CNN
+F 1 "GND" H 10105 997 50  0000 C CNN
+F 2 "" H 10100 1170 50  0001 C CNN
+F 3 "" H 10100 1170 50  0001 C CNN
+	1    10100 1170
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -363,11 +295,6 @@ Wire Wire Line
 Connection ~ 10100 940 
 Wire Wire Line
 	10100 940  10100 740 
-Wire Wire Line
-	10170 1320 10100 1320
-Connection ~ 10100 1320
-Wire Wire Line
-	10100 1320 10100 1470
 Wire Wire Line
 	2690 5850 2780 5850
 Wire Wire Line
@@ -414,56 +341,10 @@ F 4 "0" H 2910 1280 50  0001 C CNN "JLCPCB BOM"
 	1    2910 1280
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2010 2000 2010 1950
-$Comp
-L Connector:Screw_Terminal_01x02 J10
-U 1 1 5FFB6941
-P 2920 1980
-F 0 "J10" H 3000 1972 50  0000 L CNN
-F 1 "Reg Log" H 3000 1881 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 2920 1980 50  0001 C CNN
-F 3 "~" H 2920 1980 50  0001 C CNN
-F 4 "0" H 2920 1980 50  0001 C CNN "JLCPCB BOM"
-	1    2920 1980
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5FFB830A
-P 3160 2130
-F 0 "#PWR05" H 3160 1880 50  0001 C CNN
-F 1 "GND" H 3165 1957 50  0000 C CNN
-F 2 "" H 3160 2130 50  0001 C CNN
-F 3 "" H 3160 2130 50  0001 C CNN
-	1    3160 2130
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+BATT #PWR04
-U 1 1 5FFBA13B
-P 3160 1920
-F 0 "#PWR04" H 3160 1770 50  0001 C CNN
-F 1 "+BATT" H 3175 2093 50  0000 C CNN
-F 2 "" H 3160 1920 50  0001 C CNN
-F 3 "" H 3160 1920 50  0001 C CNN
-	1    3160 1920
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 2000 2010 2000
 Text Label 3280 5750 0    50   ~ 0
 AU
 Wire Wire Line
 	5320 1650 5320 1670
-Wire Wire Line
-	3160 1920 3160 1980
-Wire Wire Line
-	3160 2130 3160 2080
-Wire Wire Line
-	3120 1980 3160 1980
-Wire Wire Line
-	3120 2080 3160 2080
 Text Label 4280 3680 2    50   ~ 0
 AU
 Text Label 4280 3790 2    50   ~ 0
@@ -611,6 +492,84 @@ $EndComp
 Wire Wire Line
 	10160 1130 10100 1130
 Connection ~ 10100 1130
+$Comp
+L Device:CP1 C1
+U 1 1 5FE2AECF
+P 4390 6000
+AR Path="/5FE2AECF" Ref="C1"  Part="1" 
+AR Path="/60C96C2B/5FE2AECF" Ref="C?"  Part="1" 
+AR Path="/60167E1F/5FE2AECF" Ref="C?"  Part="1" 
+AR Path="/602E5506/5FE2AECF" Ref="C?"  Part="1" 
+AR Path="/602E5F64/5FE2AECF" Ref="C?"  Part="1" 
+AR Path="/602E5F6A/5FE2AECF" Ref="C?"  Part="1" 
+F 0 "C1" H 4505 6046 50  0000 L CNN
+F 1 "1u" H 4505 5955 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 4390 6000 50  0001 C CNN
+F 3 "~" H 4390 6000 50  0001 C CNN
+F 4 "16V" H 4580 5870 50  0000 C CNN "Tension"
+F 5 "C249445" H 4390 6000 50  0001 C CNN "LCSC Part"
+	1    4390 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C3
+U 1 1 5FE2B2E6
+P 4810 6010
+AR Path="/5FE2B2E6" Ref="C3"  Part="1" 
+AR Path="/60C96C2B/5FE2B2E6" Ref="C?"  Part="1" 
+AR Path="/60167E1F/5FE2B2E6" Ref="C?"  Part="1" 
+AR Path="/602E5506/5FE2B2E6" Ref="C?"  Part="1" 
+AR Path="/602E5F64/5FE2B2E6" Ref="C?"  Part="1" 
+AR Path="/602E5F6A/5FE2B2E6" Ref="C?"  Part="1" 
+F 0 "C3" H 4925 6056 50  0000 L CNN
+F 1 "1u" H 4925 5965 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 4810 6010 50  0001 C CNN
+F 3 "~" H 4810 6010 50  0001 C CNN
+F 4 "16V" H 5000 5880 50  0000 C CNN "Tension"
+F 5 "C249445" H 4810 6010 50  0001 C CNN "LCSC Part"
+	1    4810 6010
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FE2B8CD
+P 4390 6220
+F 0 "#PWR04" H 4390 5970 50  0001 C CNN
+F 1 "GND" H 4395 6047 50  0000 C CNN
+F 2 "" H 4390 6220 50  0001 C CNN
+F 3 "" H 4390 6220 50  0001 C CNN
+	1    4390 6220
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5FE2BE52
+P 4390 5780
+F 0 "#PWR03" H 4390 5630 50  0001 C CNN
+F 1 "+5V" H 4405 5953 50  0000 C CNN
+F 2 "" H 4390 5780 50  0001 C CNN
+F 3 "" H 4390 5780 50  0001 C CNN
+	1    4390 5780
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	10100 1130 10100 1320
+	4810 6160 4810 6180
+Wire Wire Line
+	4810 6180 4390 6180
+Wire Wire Line
+	4390 6180 4390 6220
+Wire Wire Line
+	4390 6150 4390 6180
+Connection ~ 4390 6180
+Wire Wire Line
+	4390 5850 4390 5820
+Wire Wire Line
+	4390 5820 4810 5820
+Wire Wire Line
+	4810 5820 4810 5860
+Wire Wire Line
+	4390 5780 4390 5820
+Connection ~ 4390 5820
+Wire Wire Line
+	10100 1130 10100 1170
 $EndSCHEMATC
