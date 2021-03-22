@@ -1,0 +1,158 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:BSS138 Q1
+U 1 1 605D691C
+P 6000 3550
+AR Path="/605D5838/605D691C" Ref="Q1"  Part="1" 
+AR Path="/605EE3E6/605D691C" Ref="Q2"  Part="1" 
+AR Path="/606549F7/605D691C" Ref="Q3"  Part="1" 
+AR Path="/60654D4D/605D691C" Ref="Q4"  Part="1" 
+AR Path="/606607B4/605D691C" Ref="Q5"  Part="1" 
+AR Path="/60660B0A/605D691C" Ref="Q6"  Part="1" 
+AR Path="/6066A90B/605D691C" Ref="Q7"  Part="1" 
+AR Path="/6066AC69/605D691C" Ref="Q8"  Part="1" 
+AR Path="/6066AC6D/605D691C" Ref="Q9"  Part="1" 
+AR Path="/6066AC71/605D691C" Ref="Q10"  Part="1" 
+AR Path="/60678434/605D691C" Ref="Q11"  Part="1" 
+F 0 "Q2" V 6249 3550 50  0000 C CNN
+F 1 "BSS138" V 6340 3550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6200 3475 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 6000 3550 50  0001 L CNN
+F 4 "C112239" V 6000 3550 50  0001 C CNN "LCSC Part"
+	1    6000 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 605DA9F3
+P 5680 3380
+AR Path="/605D5838/605DA9F3" Ref="R1"  Part="1" 
+AR Path="/605EE3E6/605DA9F3" Ref="R3"  Part="1" 
+AR Path="/606549F7/605DA9F3" Ref="R5"  Part="1" 
+AR Path="/60654D4D/605DA9F3" Ref="R7"  Part="1" 
+AR Path="/606607B4/605DA9F3" Ref="R9"  Part="1" 
+AR Path="/60660B0A/605DA9F3" Ref="R11"  Part="1" 
+AR Path="/6066A90B/605DA9F3" Ref="R13"  Part="1" 
+AR Path="/6066AC69/605DA9F3" Ref="R15"  Part="1" 
+AR Path="/6066AC6D/605DA9F3" Ref="R17"  Part="1" 
+AR Path="/6066AC71/605DA9F3" Ref="R19"  Part="1" 
+AR Path="/60678434/605DA9F3" Ref="R21"  Part="1" 
+F 0 "R3" H 5739 3426 50  0000 L CNN
+F 1 "10K" H 5739 3335 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5680 3380 50  0001 C CNN
+F 3 "~" H 5680 3380 50  0001 C CNN
+F 4 "C17414" H 5680 3380 50  0001 C CNN "LCSC Part"
+	1    5680 3380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 605DB786
+P 6360 3380
+AR Path="/605D5838/605DB786" Ref="R2"  Part="1" 
+AR Path="/605EE3E6/605DB786" Ref="R4"  Part="1" 
+AR Path="/606549F7/605DB786" Ref="R6"  Part="1" 
+AR Path="/60654D4D/605DB786" Ref="R8"  Part="1" 
+AR Path="/606607B4/605DB786" Ref="R10"  Part="1" 
+AR Path="/60660B0A/605DB786" Ref="R12"  Part="1" 
+AR Path="/6066A90B/605DB786" Ref="R14"  Part="1" 
+AR Path="/6066AC69/605DB786" Ref="R16"  Part="1" 
+AR Path="/6066AC6D/605DB786" Ref="R18"  Part="1" 
+AR Path="/6066AC71/605DB786" Ref="R20"  Part="1" 
+AR Path="/60678434/605DB786" Ref="R22"  Part="1" 
+F 0 "R4" H 6419 3426 50  0000 L CNN
+F 1 "10K" H 6419 3335 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6360 3380 50  0001 C CNN
+F 3 "~" H 6360 3380 50  0001 C CNN
+F 4 "C17414" H 6360 3380 50  0001 C CNN "LCSC Part"
+	1    6360 3380
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR021
+U 1 1 605DBFDD
+P 6360 3180
+AR Path="/605D5838/605DBFDD" Ref="#PWR021"  Part="1" 
+AR Path="/605EE3E6/605DBFDD" Ref="#PWR023"  Part="1" 
+AR Path="/606549F7/605DBFDD" Ref="#PWR025"  Part="1" 
+AR Path="/60654D4D/605DBFDD" Ref="#PWR027"  Part="1" 
+AR Path="/606607B4/605DBFDD" Ref="#PWR029"  Part="1" 
+AR Path="/60660B0A/605DBFDD" Ref="#PWR031"  Part="1" 
+AR Path="/6066A90B/605DBFDD" Ref="#PWR033"  Part="1" 
+AR Path="/6066AC69/605DBFDD" Ref="#PWR035"  Part="1" 
+AR Path="/6066AC6D/605DBFDD" Ref="#PWR037"  Part="1" 
+AR Path="/6066AC71/605DBFDD" Ref="#PWR039"  Part="1" 
+AR Path="/60678434/605DBFDD" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 6360 3030 50  0001 C CNN
+F 1 "+5V" H 6375 3353 50  0000 C CNN
+F 2 "" H 6360 3180 50  0001 C CNN
+F 3 "" H 6360 3180 50  0001 C CNN
+	1    6360 3180
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR020
+U 1 1 605DC7EB
+P 5680 3190
+AR Path="/605D5838/605DC7EB" Ref="#PWR020"  Part="1" 
+AR Path="/605EE3E6/605DC7EB" Ref="#PWR022"  Part="1" 
+AR Path="/606549F7/605DC7EB" Ref="#PWR024"  Part="1" 
+AR Path="/60654D4D/605DC7EB" Ref="#PWR026"  Part="1" 
+AR Path="/606607B4/605DC7EB" Ref="#PWR028"  Part="1" 
+AR Path="/60660B0A/605DC7EB" Ref="#PWR030"  Part="1" 
+AR Path="/6066A90B/605DC7EB" Ref="#PWR032"  Part="1" 
+AR Path="/6066AC69/605DC7EB" Ref="#PWR034"  Part="1" 
+AR Path="/6066AC6D/605DC7EB" Ref="#PWR036"  Part="1" 
+AR Path="/6066AC71/605DC7EB" Ref="#PWR038"  Part="1" 
+AR Path="/60678434/605DC7EB" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 5680 3040 50  0001 C CNN
+F 1 "+3.3V" H 5695 3363 50  0000 C CNN
+F 2 "" H 5680 3190 50  0001 C CNN
+F 3 "" H 5680 3190 50  0001 C CNN
+	1    5680 3190
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5680 3280 5680 3230
+Wire Wire Line
+	6000 3350 6000 3230
+Wire Wire Line
+	6000 3230 5680 3230
+Connection ~ 5680 3230
+Wire Wire Line
+	5680 3230 5680 3190
+Wire Wire Line
+	6360 3280 6360 3180
+Wire Wire Line
+	6200 3650 6360 3650
+Wire Wire Line
+	6360 3480 6360 3650
+Connection ~ 6360 3650
+Wire Wire Line
+	6360 3650 6620 3650
+Wire Wire Line
+	5430 3650 5680 3650
+Wire Wire Line
+	5680 3480 5680 3650
+Connection ~ 5680 3650
+Wire Wire Line
+	5680 3650 5800 3650
+Text HLabel 5430 3650 0    50   Input ~ 0
+LV
+Text HLabel 6620 3650 2    50   Input ~ 0
+HV
+$EndSCHEMATC
