@@ -21,6 +21,7 @@ F 0 "J9" H 9570 5140 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 9860 5050 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 9230 3770 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 9230 3770 50  0001 C CNN
+F 4 "0" H 9230 3770 50  0001 C CNN "LCSC Part"
 	1    9230 3770
 	1    0    0    -1  
 $EndComp
@@ -126,6 +127,7 @@ F 0 "J3" H 1510 1847 50  0000 C CNN
 F 1 "Interf 1" H 1510 1756 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1460 1430 50  0001 C CNN
 F 3 "~" H 1460 1430 50  0001 C CNN
+F 4 "0" H 1460 1430 50  0001 C CNN "LCSC Part"
 	1    1460 1430
 	1    0    0    -1  
 $EndComp
@@ -178,6 +180,7 @@ F 0 "J7" H 2780 1847 50  0000 C CNN
 F 1 "Interf 2" H 2780 1756 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2730 1430 50  0001 C CNN
 F 3 "~" H 2730 1430 50  0001 C CNN
+F 4 "0" H 2730 1430 50  0001 C CNN "LCSC Part"
 	1    2730 1430
 	1    0    0    -1  
 $EndComp
@@ -230,6 +233,7 @@ F 0 "J4" H 1510 2777 50  0000 C CNN
 F 1 "Interf 3" H 1510 2686 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1460 2360 50  0001 C CNN
 F 3 "~" H 1460 2360 50  0001 C CNN
+F 4 "0" H 1460 2360 50  0001 C CNN "LCSC Part"
 	1    1460 2360
 	1    0    0    -1  
 $EndComp
@@ -282,6 +286,7 @@ F 0 "J8" H 2780 2777 50  0000 C CNN
 F 1 "Interf 4" H 2780 2686 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2730 2360 50  0001 C CNN
 F 3 "~" H 2730 2360 50  0001 C CNN
+F 4 "0" H 2730 2360 50  0001 C CNN "LCSC Part"
 	1    2730 2360
 	1    0    0    -1  
 $EndComp
@@ -334,6 +339,7 @@ F 0 "J1" H 1480 3667 50  0000 C CNN
 F 1 "Interf 5" H 1480 3576 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1430 3250 50  0001 C CNN
 F 3 "~" H 1430 3250 50  0001 C CNN
+F 4 "0" H 1430 3250 50  0001 C CNN "LCSC Part"
 	1    1430 3250
 	1    0    0    -1  
 $EndComp
@@ -386,6 +392,7 @@ F 0 "J5" H 2750 3667 50  0000 C CNN
 F 1 "Interf 6" H 2750 3576 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2700 3250 50  0001 C CNN
 F 3 "~" H 2700 3250 50  0001 C CNN
+F 4 "0" H 2700 3250 50  0001 C CNN "LCSC Part"
 	1    2700 3250
 	1    0    0    -1  
 $EndComp
@@ -438,6 +445,7 @@ F 0 "J2" H 1480 4597 50  0000 C CNN
 F 1 "Interf 7" H 1480 4506 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 1430 4180 50  0001 C CNN
 F 3 "~" H 1430 4180 50  0001 C CNN
+F 4 "0" H 1430 4180 50  0001 C CNN "LCSC Part"
 	1    1430 4180
 	1    0    0    -1  
 $EndComp
@@ -490,6 +498,7 @@ F 0 "J6" H 2750 4597 50  0000 C CNN
 F 1 "Interf RGB" H 2750 4506 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 2700 4180 50  0001 C CNN
 F 3 "~" H 2700 4180 50  0001 C CNN
+F 4 "0" H 2700 4180 50  0001 C CNN "LCSC Part"
 	1    2700 4180
 	1    0    0    -1  
 $EndComp
@@ -774,6 +783,7 @@ F 0 "H1" V 2494 5310 50  0000 L CNN
 F 1 "MountingHole_Pad" V 2585 5310 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2540 5160 50  0001 C CNN
 F 3 "~" H 2540 5160 50  0001 C CNN
+F 4 "0" H 2540 5160 50  0001 C CNN "LCSC Part"
 	1    2540 5160
 	0    1    1    0   
 $EndComp
@@ -785,6 +795,7 @@ F 0 "H2" V 2494 5490 50  0000 L CNN
 F 1 "MountingHole_Pad" V 2585 5490 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2540 5340 50  0001 C CNN
 F 3 "~" H 2540 5340 50  0001 C CNN
+F 4 "0" H 2540 5340 50  0001 C CNN "LCSC Part"
 	1    2540 5340
 	0    1    1    0   
 $EndComp
@@ -796,6 +807,7 @@ F 0 "H3" V 2494 5670 50  0000 L CNN
 F 1 "MountingHole_Pad" V 2585 5670 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2540 5520 50  0001 C CNN
 F 3 "~" H 2540 5520 50  0001 C CNN
+F 4 "0" H 2540 5520 50  0001 C CNN "LCSC Part"
 	1    2540 5520
 	0    1    1    0   
 $EndComp
@@ -807,6 +819,7 @@ F 0 "H4" V 2494 5860 50  0000 L CNN
 F 1 "MountingHole_Pad" V 2585 5860 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2540 5710 50  0001 C CNN
 F 3 "~" H 2540 5710 50  0001 C CNN
+F 4 "0" H 2540 5710 50  0001 C CNN "LCSC Part"
 	1    2540 5710
 	0    1    1    0   
 $EndComp
@@ -872,6 +885,7 @@ F 0 "J10" H 4970 1232 50  0000 L CNN
 F 1 "I2C 5V" H 4970 1141 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 4890 1240 50  0001 C CNN
 F 3 "~" H 4890 1240 50  0001 C CNN
+F 4 "0" H 4890 1240 50  0001 C CNN "LCSC Part"
 	1    4890 1240
 	1    0    0    -1  
 $EndComp
@@ -887,6 +901,7 @@ F 0 "R24" H 4349 1006 50  0000 L CNN
 F 1 "4.7k" H 4349 915 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4290 960 50  0001 C CNN
 F 3 "~" H 4290 960 50  0001 C CNN
+F 4 "C17673" H 4290 960 50  0001 C CNN "LCSC Part"
 	1    4290 960 
 	1    0    0    -1  
 $EndComp
@@ -898,6 +913,7 @@ F 0 "R25" H 4629 1006 50  0000 L CNN
 F 1 "4.7k" H 4629 915 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4570 960 50  0001 C CNN
 F 3 "~" H 4570 960 50  0001 C CNN
+F 4 "C17673" H 4570 960 50  0001 C CNN "LCSC Part"
 	1    4570 960 
 	1    0    0    -1  
 $EndComp
@@ -945,6 +961,7 @@ F 0 "J11" H 4770 2742 50  0000 L CNN
 F 1 "I2C 5V" H 4770 2651 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 4690 2750 50  0001 C CNN
 F 3 "~" H 4690 2750 50  0001 C CNN
+F 4 "0" H 4690 2750 50  0001 C CNN "LCSC Part"
 	1    4690 2750
 	1    0    0    -1  
 $EndComp
