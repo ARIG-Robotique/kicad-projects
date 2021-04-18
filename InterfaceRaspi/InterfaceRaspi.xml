@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/gregorydepuille@sglk.local/workspaces/arig-wksp/electronique/kicad-projects/InterfaceRaspi/InterfaceRaspi.sch</source>
-    <date>mar. 06 avril 2021 19:29:29</date>
+    <date>dim. 18 avril 2021 21:38:50</date>
     <tool>Eeschema 5.1.9-1.fc33</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -167,7 +167,7 @@
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
       <datasheet>https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector" part="Raspberry_Pi_2_3" description="expansion header for Raspberry Pi 2 &amp; 3"/>
       <sheetpath names="/" tstamps="/"/>
@@ -178,7 +178,7 @@
       <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -189,7 +189,7 @@
       <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -200,7 +200,7 @@
       <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -211,7 +211,7 @@
       <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -222,7 +222,7 @@
       <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -233,7 +233,7 @@
       <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -244,7 +244,7 @@
       <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -255,7 +255,7 @@
       <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -266,7 +266,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
@@ -277,7 +277,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
@@ -288,7 +288,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
@@ -299,7 +299,7 @@
       <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
@@ -310,7 +310,7 @@
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -343,7 +343,7 @@
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">0</field>
+        <field name="JLCPCB BOM">0</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -354,7 +354,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/conv_SDA/" tstamps="/605D5838/"/>
@@ -387,7 +387,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/conv_SCL/" tstamps="/605EE3E6/"/>
@@ -420,7 +420,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet606549F7/" tstamps="/606549F7/"/>
@@ -453,7 +453,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet60654D4D/" tstamps="/60654D4D/"/>
@@ -486,7 +486,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet606607B4/" tstamps="/606607B4/"/>
@@ -519,7 +519,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet60660B0A/" tstamps="/60660B0A/"/>
@@ -552,7 +552,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet6066A90B/" tstamps="/6066A90B/"/>
@@ -585,7 +585,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet6066AC69/" tstamps="/6066AC69/"/>
@@ -618,7 +618,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet6066AC6D/" tstamps="/6066AC6D/"/>
@@ -651,7 +651,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet6066AC71/" tstamps="/6066AC71/"/>
@@ -684,7 +684,7 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
       <fields>
-        <field name="LCSC Part">C112239</field>
+        <field name="LCSC Part">C426569</field>
       </fields>
       <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/sheet60678434/" tstamps="/60678434/"/>
