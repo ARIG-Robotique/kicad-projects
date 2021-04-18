@@ -21,6 +21,7 @@ F 0 "U1" H 5300 4100 50  0000 C CNN
 F 1 "TCA9548APWR" H 5520 4010 50  0000 C CNN
 F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 5180 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 5230 3400 50  0001 C CNN
+F 4 "C130026" H 5180 3150 50  0001 C CNN "LCSC Part"
 	1    5180 3150
 	1    0    0    -1  
 $EndComp
@@ -32,6 +33,7 @@ F 0 "R3" H 2809 3186 50  0000 L CNN
 F 1 "10K" H 2809 3095 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2750 3140 50  0001 C CNN
 F 3 "~" H 2750 3140 50  0001 C CNN
+F 4 "C17414" H 2750 3140 50  0001 C CNN "LCSC Part"
 	1    2750 3140
 	1    0    0    -1  
 $EndComp
@@ -43,6 +45,7 @@ F 0 "R2" H 2499 3186 50  0000 L CNN
 F 1 "10K" H 2499 3095 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2440 3140 50  0001 C CNN
 F 3 "~" H 2440 3140 50  0001 C CNN
+F 4 "C17414" H 2440 3140 50  0001 C CNN "LCSC Part"
 	1    2440 3140
 	1    0    0    -1  
 $EndComp
@@ -54,6 +57,7 @@ F 0 "R1" H 2169 3186 50  0000 L CNN
 F 1 "10K" H 2169 3095 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2110 3140 50  0001 C CNN
 F 3 "~" H 2110 3140 50  0001 C CNN
+F 4 "C17414" H 2110 3140 50  0001 C CNN "LCSC Part"
 	1    2110 3140
 	1    0    0    -1  
 $EndComp
@@ -115,6 +119,7 @@ F 0 "JP1" V 2156 2652 50  0000 R CNN
 F 1 "A0" V 2065 2652 50  0000 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2110 2740 50  0001 C CNN
 F 3 "~" H 2110 2740 50  0001 C CNN
+F 4 "0" H 2110 2740 50  0001 C CNN "JLCPCB BOM"
 	1    2110 2740
 	0    -1   -1   0   
 $EndComp
@@ -133,6 +138,7 @@ F 0 "JP2" V 2486 2652 50  0000 R CNN
 F 1 "A1" V 2395 2652 50  0000 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2440 2740 50  0001 C CNN
 F 3 "~" H 2440 2740 50  0001 C CNN
+F 4 "0" H 2440 2740 50  0001 C CNN "JLCPCB BOM"
 	1    2440 2740
 	0    -1   -1   0   
 $EndComp
@@ -144,6 +150,7 @@ F 0 "JP3" V 2796 2652 50  0000 R CNN
 F 1 "A2" V 2705 2652 50  0000 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2750 2740 50  0001 C CNN
 F 3 "~" H 2750 2740 50  0001 C CNN
+F 4 "0" H 2750 2740 50  0001 C CNN "JLCPCB BOM"
 	1    2750 2740
 	0    -1   -1   0   
 $EndComp
@@ -240,7 +247,8 @@ P 3980 1300
 F 0 "C1" H 4072 1346 50  0000 L CNN
 F 1 "10u" H 4072 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3980 1300 50  0001 C CNN
-F 3 "~" H 3980 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 3980 1300 50  0001 C CNN
+F 4 "C15850" H 3980 1300 50  0001 C CNN "LCSC Part"
 	1    3980 1300
 	1    0    0    -1  
 $EndComp
@@ -252,6 +260,7 @@ F 0 "R4" H 3241 2634 50  0000 R CNN
 F 1 "10K" H 3241 2725 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3300 2680 50  0001 C CNN
 F 3 "~" H 3300 2680 50  0001 C CNN
+F 4 "C17414" H 3300 2680 50  0001 C CNN "LCSC Part"
 	1    3300 2680
 	-1   0    0    1   
 $EndComp
@@ -286,6 +295,7 @@ F 0 "J9" H 6800 3647 50  0000 C CNN
 F 1 "Interf ARIG" H 6800 3556 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 6750 3230 50  0001 C CNN
 F 3 "~" H 6750 3230 50  0001 C CNN
+F 4 "0" H 6750 3230 50  0001 C CNN "JLCPCB BOM"
 	1    6750 3230
 	1    0    0    -1  
 $EndComp
@@ -338,6 +348,7 @@ F 0 "J1" H 8450 1762 50  0000 L CNN
 F 1 "Color0" H 8450 1671 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 8370 1720 50  0001 C CNN
 F 3 "~" H 8370 1720 50  0001 C CNN
+F 4 "0" H 8370 1720 50  0001 C CNN "JLCPCB BOM"
 	1    8370 1720
 	1    0    0    -1  
 $EndComp
@@ -383,6 +394,7 @@ F 0 "J2" H 9670 1762 50  0000 L CNN
 F 1 "Color1" H 9670 1671 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 9590 1720 50  0001 C CNN
 F 3 "~" H 9590 1720 50  0001 C CNN
+F 4 "0" H 9590 1720 50  0001 C CNN "JLCPCB BOM"
 	1    9590 1720
 	1    0    0    -1  
 $EndComp
@@ -430,6 +442,7 @@ F 0 "J3" H 8450 2842 50  0000 L CNN
 F 1 "Color2" H 8450 2751 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 8370 2800 50  0001 C CNN
 F 3 "~" H 8370 2800 50  0001 C CNN
+F 4 "0" H 8370 2800 50  0001 C CNN "JLCPCB BOM"
 	1    8370 2800
 	1    0    0    -1  
 $EndComp
@@ -477,6 +490,7 @@ F 0 "J4" H 9670 2842 50  0000 L CNN
 F 1 "Color3" H 9670 2751 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 9590 2800 50  0001 C CNN
 F 3 "~" H 9590 2800 50  0001 C CNN
+F 4 "0" H 9590 2800 50  0001 C CNN "JLCPCB BOM"
 	1    9590 2800
 	1    0    0    -1  
 $EndComp
@@ -524,6 +538,7 @@ F 0 "J5" H 8450 3942 50  0000 L CNN
 F 1 "Color4" H 8450 3851 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 8370 3900 50  0001 C CNN
 F 3 "~" H 8370 3900 50  0001 C CNN
+F 4 "0" H 8370 3900 50  0001 C CNN "JLCPCB BOM"
 	1    8370 3900
 	1    0    0    -1  
 $EndComp
@@ -571,6 +586,7 @@ F 0 "J6" H 9670 3942 50  0000 L CNN
 F 1 "Color5" H 9670 3851 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 9590 3900 50  0001 C CNN
 F 3 "~" H 9590 3900 50  0001 C CNN
+F 4 "0" H 9590 3900 50  0001 C CNN "JLCPCB BOM"
 	1    9590 3900
 	1    0    0    -1  
 $EndComp
@@ -618,6 +634,7 @@ F 0 "J7" H 8450 5022 50  0000 L CNN
 F 1 "Color6" H 8450 4931 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 8370 4980 50  0001 C CNN
 F 3 "~" H 8370 4980 50  0001 C CNN
+F 4 "0" H 8370 4980 50  0001 C CNN "JLCPCB BOM"
 	1    8370 4980
 	1    0    0    -1  
 $EndComp
@@ -665,6 +682,7 @@ F 0 "J8" H 9670 5022 50  0000 L CNN
 F 1 "Color7" H 9670 4931 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 9590 4980 50  0001 C CNN
 F 3 "~" H 9590 4980 50  0001 C CNN
+F 4 "0" H 9590 4980 50  0001 C CNN "JLCPCB BOM"
 	1    9590 4980
 	1    0    0    -1  
 $EndComp
@@ -745,7 +763,8 @@ P 4310 1300
 F 0 "C2" H 4402 1346 50  0000 L CNN
 F 1 "10u" H 4402 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4310 1300 50  0001 C CNN
-F 3 "~" H 4310 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 4310 1300 50  0001 C CNN
+F 4 "C15850" H 4310 1300 50  0001 C CNN "LCSC Part"
 	1    4310 1300
 	1    0    0    -1  
 $EndComp
@@ -756,7 +775,8 @@ P 4630 1300
 F 0 "C3" H 4722 1346 50  0000 L CNN
 F 1 "10u" H 4722 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4630 1300 50  0001 C CNN
-F 3 "~" H 4630 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 4630 1300 50  0001 C CNN
+F 4 "C15850" H 4630 1300 50  0001 C CNN "LCSC Part"
 	1    4630 1300
 	1    0    0    -1  
 $EndComp
@@ -767,7 +787,8 @@ P 4950 1300
 F 0 "C4" H 5042 1346 50  0000 L CNN
 F 1 "10u" H 5042 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4950 1300 50  0001 C CNN
-F 3 "~" H 4950 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 4950 1300 50  0001 C CNN
+F 4 "C15850" H 4950 1300 50  0001 C CNN "LCSC Part"
 	1    4950 1300
 	1    0    0    -1  
 $EndComp
@@ -778,7 +799,8 @@ P 5270 1300
 F 0 "C5" H 5362 1346 50  0000 L CNN
 F 1 "10u" H 5362 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5270 1300 50  0001 C CNN
-F 3 "~" H 5270 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 5270 1300 50  0001 C CNN
+F 4 "C15850" H 5270 1300 50  0001 C CNN "LCSC Part"
 	1    5270 1300
 	1    0    0    -1  
 $EndComp
@@ -789,7 +811,8 @@ P 5590 1300
 F 0 "C6" H 5682 1346 50  0000 L CNN
 F 1 "10u" H 5682 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5590 1300 50  0001 C CNN
-F 3 "~" H 5590 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 5590 1300 50  0001 C CNN
+F 4 "C15850" H 5590 1300 50  0001 C CNN "LCSC Part"
 	1    5590 1300
 	1    0    0    -1  
 $EndComp
@@ -800,7 +823,8 @@ P 5910 1300
 F 0 "C7" H 6002 1346 50  0000 L CNN
 F 1 "10u" H 6002 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5910 1300 50  0001 C CNN
-F 3 "~" H 5910 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 5910 1300 50  0001 C CNN
+F 4 "C15850" H 5910 1300 50  0001 C CNN "LCSC Part"
 	1    5910 1300
 	1    0    0    -1  
 $EndComp
@@ -811,7 +835,8 @@ P 6240 1300
 F 0 "C8" H 6332 1346 50  0000 L CNN
 F 1 "10u" H 6332 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6240 1300 50  0001 C CNN
-F 3 "~" H 6240 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 6240 1300 50  0001 C CNN
+F 4 "C15850" H 6240 1300 50  0001 C CNN "LCSC Part"
 	1    6240 1300
 	1    0    0    -1  
 $EndComp
@@ -822,7 +847,8 @@ P 6580 1300
 F 0 "C9" H 6672 1346 50  0000 L CNN
 F 1 "10u" H 6672 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6580 1300 50  0001 C CNN
-F 3 "~" H 6580 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf" H 6580 1300 50  0001 C CNN
+F 4 "C15850" H 6580 1300 50  0001 C CNN "LCSC Part"
 	1    6580 1300
 	1    0    0    -1  
 $EndComp
@@ -977,6 +1003,7 @@ F 0 "H1" V 2704 4250 50  0000 L CNN
 F 1 "MountingHole_Pad" V 2795 4250 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2750 4100 50  0001 C CNN
 F 3 "~" H 2750 4100 50  0001 C CNN
+F 4 "0" H 2750 4100 50  0001 C CNN "JLCPCB BOM"
 	1    2750 4100
 	0    1    1    0   
 $EndComp
@@ -988,6 +1015,7 @@ F 0 "H2" V 2704 4440 50  0000 L CNN
 F 1 "MountingHole_Pad" V 2795 4440 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2750 4290 50  0001 C CNN
 F 3 "~" H 2750 4290 50  0001 C CNN
+F 4 "0" H 2750 4290 50  0001 C CNN "JLCPCB BOM"
 	1    2750 4290
 	0    1    1    0   
 $EndComp
@@ -1030,6 +1058,7 @@ F 0 "J10" H 6850 4002 50  0000 L CNN
 F 1 "Alim 5V" H 6850 3911 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 6770 4010 50  0001 C CNN
 F 3 "~" H 6770 4010 50  0001 C CNN
+F 4 "0" H 6770 4010 50  0001 C CNN "JLCPCB BOM"
 	1    6770 4010
 	1    0    0    -1  
 $EndComp
