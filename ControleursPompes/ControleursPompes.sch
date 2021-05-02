@@ -1690,21 +1690,21 @@ F5 "PUMP" I L 7340 5000 50
 $EndSheet
 Text GLabel 2260 1670 2    50   Input ~ 0
 SCL_33
-Text GLabel 5810 4540 2    50   Input ~ 0
-PRES_1
-Text GLabel 5810 4640 2    50   Input ~ 0
-PRES_2
-Text GLabel 5810 4740 2    50   Input ~ 0
-PRES_3
 Text GLabel 5810 4840 2    50   Input ~ 0
-PRES_4
-Text GLabel 9660 650  2    50   Input ~ 0
 PRES_1
-Text GLabel 9130 640  2    50   Input ~ 0
+Text GLabel 5810 4740 2    50   Input ~ 0
 PRES_2
-Text GLabel 8610 630  2    50   Input ~ 0
+Text GLabel 5810 4640 2    50   Input ~ 0
 PRES_3
+Text GLabel 5810 4540 2    50   Input ~ 0
+PRES_4
 Text GLabel 8150 630  2    50   Input ~ 0
+PRES_1
+Text GLabel 8610 630  2    50   Input ~ 0
+PRES_2
+Text GLabel 9130 640  2    50   Input ~ 0
+PRES_3
+Text GLabel 9660 650  2    50   Input ~ 0
 PRES_4
 $Comp
 L Device:R_Small R11
