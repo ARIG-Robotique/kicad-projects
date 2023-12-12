@@ -1794,7 +1794,7 @@
     (property "Value" "PCF8575" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "IPC7351-Nominal:SOP65P775X200-24" (at 0 -43.18 0)
+    (property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" (at 0 -43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.nxp.com/documents/data_sheet/PCF8575.pdf" (at 0 -45.72 0)
