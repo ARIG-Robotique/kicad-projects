@@ -1,5 +1,7 @@
 *.step
 *-bak
+*-backups
+*-rescue.*
 out/
 target/
 
