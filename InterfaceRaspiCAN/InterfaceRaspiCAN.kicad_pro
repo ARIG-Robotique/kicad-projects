@@ -474,11 +474,11 @@
     ],
     [
       "ccbcf84c-eee2-4579-bbc2-db2a20aa6794",
-      "LevelShifter"
+      "SCL Shifter"
     ],
     [
       "41f9b6ee-40d3-40e3-9622-2c040bcc95d9",
-      "LevelShifter1"
+      "SDA Shifter"
     ]
   ],
   "text_variables": {}
