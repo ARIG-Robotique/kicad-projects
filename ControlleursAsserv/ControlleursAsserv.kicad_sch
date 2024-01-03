@@ -4465,7 +4465,7 @@
     (property "Value" "CAN1" (at 72.39 171.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" (at 69.85 168.91 0)
+    (property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" (at 69.85 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 69.85 168.91 0)
@@ -4531,7 +4531,7 @@
     (property "Value" "I2C2_5" (at 43.18 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" (at 40.64 139.7 0)
+    (property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" (at 40.64 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 139.7 0)
@@ -4752,7 +4752,7 @@
     (property "Value" "CAN2" (at 72.39 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" (at 69.85 182.88 0)
+    (property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" (at 69.85 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 69.85 182.88 0)
@@ -5038,7 +5038,7 @@
     (property "Value" "I2C1_5" (at 43.18 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" (at 40.64 127 0)
+    (property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" (at 40.64 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 127 0)
@@ -5299,7 +5299,7 @@
   (symbol (lib_id "Device:R_Small") (at 91.44 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 870bb50e-86ec-429c-852c-31e63af96519)
-    (property "Reference" "R2" (at 93.98 66.04 0)
+    (property "Reference" "R7" (at 93.98 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 93.98 68.58 0)
@@ -5318,12 +5318,6 @@
     (pin "1" (uuid 8779fcee-06d4-411b-b70d-ba9b99cc9fb3))
     (instances
       (project "ControlleursAsserv"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/3da43f86-0520-4797-8d8a-f370cac20cce"
-          (reference "R2") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/089105fe-c96c-467a-9c54-c49136cd48fd"
-          (reference "R4") (unit 1)
-        )
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938"
           (reference "R7") (unit 1)
         )
@@ -5334,7 +5328,7 @@
   (symbol (lib_id "Device:R_Small") (at 26.67 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8792a5f8-4e35-4b03-b6d6-d1e6e08a6ba7)
-    (property "Reference" "R2" (at 27.94 184.15 0)
+    (property "Reference" "R10" (at 27.94 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 27.94 186.69 0)
@@ -5353,12 +5347,6 @@
     (pin "1" (uuid 9d7cae03-d327-4ae7-ac3b-e64a46e7aac0))
     (instances
       (project "ControlleursAsserv"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/3da43f86-0520-4797-8d8a-f370cac20cce"
-          (reference "R2") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/089105fe-c96c-467a-9c54-c49136cd48fd"
-          (reference "R4") (unit 1)
-        )
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938"
           (reference "R10") (unit 1)
         )
@@ -5419,7 +5407,7 @@
   (symbol (lib_id "Device:R_Small") (at 71.12 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9eae19b7-b440-4c44-83b5-344c9d2451cd)
-    (property "Reference" "R2" (at 73.66 55.88 0)
+    (property "Reference" "R6" (at 73.66 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 73.66 58.42 0)
@@ -5438,12 +5426,6 @@
     (pin "1" (uuid cf67bff6-47c5-48bf-b348-754cfb94a8c6))
     (instances
       (project "ControlleursAsserv"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/3da43f86-0520-4797-8d8a-f370cac20cce"
-          (reference "R2") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/089105fe-c96c-467a-9c54-c49136cd48fd"
-          (reference "R4") (unit 1)
-        )
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938"
           (reference "R6") (unit 1)
         )
@@ -5900,7 +5882,7 @@
   (symbol (lib_id "Device:R_Small") (at 105.41 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb286355-47ea-4e1d-ad4a-7c7dbfb5bdf0)
-    (property "Reference" "R2" (at 105.41 128.27 90)
+    (property "Reference" "R9" (at 105.41 128.27 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47" (at 105.41 130.81 90)
@@ -5919,12 +5901,6 @@
     (pin "1" (uuid ecf7d11b-5bd4-461d-9546-cf15335db35a))
     (instances
       (project "ControlleursAsserv"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/3da43f86-0520-4797-8d8a-f370cac20cce"
-          (reference "R2") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/089105fe-c96c-467a-9c54-c49136cd48fd"
-          (reference "R4") (unit 1)
-        )
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938"
           (reference "R9") (unit 1)
         )
@@ -5966,7 +5942,7 @@
     (property "Value" "In App Prog" (at 95.25 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" (at 92.71 78.74 0)
+    (property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" (at 92.71 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 92.71 78.74 0)
