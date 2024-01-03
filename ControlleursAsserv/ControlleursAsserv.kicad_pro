@@ -334,6 +334,70 @@
     [
       "089105fe-c96c-467a-9c54-c49136cd48fd",
       "SCL Shifter"
+    ],
+    [
+      "824543e8-c6e6-4bc4-be6d-a6118c497c37",
+      "Codeur_Moteur_1"
+    ],
+    [
+      "314d62cd-f40c-4538-beae-7b15013d8b19",
+      "CHA Shifter"
+    ],
+    [
+      "63807a8a-c572-4ce6-8f8f-2c251f8a458b",
+      "CHB Shifter"
+    ],
+    [
+      "4414a368-878f-422b-a7bf-70aaf5075900",
+      "IDX Shifter"
+    ],
+    [
+      "19259b9c-af00-4d72-80f1-2930277ded96",
+      "Codeur_Moteur_2"
+    ],
+    [
+      "314d62cd-f40c-4538-beae-7b15013d8b19",
+      "CHA Shifter"
+    ],
+    [
+      "63807a8a-c572-4ce6-8f8f-2c251f8a458b",
+      "CHB Shifter"
+    ],
+    [
+      "4414a368-878f-422b-a7bf-70aaf5075900",
+      "IDX Shifter"
+    ],
+    [
+      "7ebd2e4b-6da3-4b3a-979a-bd95434379b0",
+      "Codeur_Moteur_3"
+    ],
+    [
+      "63807a8a-c572-4ce6-8f8f-2c251f8a458b",
+      "CHB Shifter"
+    ],
+    [
+      "4414a368-878f-422b-a7bf-70aaf5075900",
+      "IDX Shifter"
+    ],
+    [
+      "314d62cd-f40c-4538-beae-7b15013d8b19",
+      "CHA Shifter"
+    ],
+    [
+      "810688c5-9ec1-4490-9dfc-3155fab99c55",
+      "Codeur_Moteur_4"
+    ],
+    [
+      "4414a368-878f-422b-a7bf-70aaf5075900",
+      "IDX Shifter"
+    ],
+    [
+      "314d62cd-f40c-4538-beae-7b15013d8b19",
+      "CHA Shifter"
+    ],
+    [
+      "63807a8a-c572-4ce6-8f8f-2c251f8a458b",
+      "CHB Shifter"
     ]
   ],
   "text_variables": {}
