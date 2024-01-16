@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ModuleMesure-rescue")(type "KiCad")(uri "${KIPRJMOD}/ModuleMesure-rescue.kicad_sym")(options "")(descr ""))
+)
