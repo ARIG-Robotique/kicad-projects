@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ModuleAlim6A-rescue")(type "KiCad")(uri "${KIPRJMOD}/ModuleAlim6A-rescue.kicad_sym")(options "")(descr ""))
+)

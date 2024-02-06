@@ -1,0 +1,436 @@
+EESchema Schematic File Version 5
+EELAYER 43 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Alimentation - Module 6A"
+Date "2020-12-12"
+Rev "1.0"
+Comp "ARIG"
+Comment1 "Auteur : Gregory DEPUILLE"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 2170 3410
+Connection ~ 2210 2890
+Connection ~ 3420 4040
+Connection ~ 5340 3500
+Connection ~ 5740 3500
+Connection ~ 7080 3500
+Connection ~ 7220 3500
+Connection ~ 7630 3500
+Wire Wire Line
+	1970 3410 2170 3410
+Wire Wire Line
+	2070 3710 2070 3290
+Wire Wire Line
+	2170 3410 2260 3410
+Wire Wire Line
+	2170 3510 2170 3410
+Wire Wire Line
+	2170 3610 2170 3800
+Wire Wire Line
+	2210 2890 2170 2890
+Wire Wire Line
+	2210 2990 2210 2890
+Wire Wire Line
+	2210 2990 2260 2990
+Wire Wire Line
+	2260 2890 2210 2890
+Wire Wire Line
+	2260 3510 2170 3510
+Wire Wire Line
+	2260 3610 2170 3610
+Wire Wire Line
+	2260 3710 2070 3710
+Wire Wire Line
+	3420 3850 3420 4040
+Wire Wire Line
+	3420 4170 3420 4040
+Wire Wire Line
+	3510 3370 3510 3270
+Wire Wire Line
+	3520 3850 3420 3850
+Wire Wire Line
+	3520 4040 3420 4040
+Wire Wire Line
+	3960 3280 3960 3370
+Wire Wire Line
+	3960 3370 4290 3370
+Wire Wire Line
+	4290 3370 4290 3270
+Wire Wire Line
+	5140 3430 5140 3500
+Wire Wire Line
+	5140 3500 5340 3500
+Wire Wire Line
+	5340 3500 5740 3500
+Wire Wire Line
+	5340 3590 5340 3500
+Wire Wire Line
+	5740 3500 6020 3500
+Wire Wire Line
+	5740 3590 5740 3500
+Wire Wire Line
+	6520 3900 6520 3950
+Wire Wire Line
+	7020 3500 7080 3500
+Wire Wire Line
+	7020 3600 7080 3600
+Wire Wire Line
+	7020 3700 7080 3700
+Wire Wire Line
+	7080 3500 7220 3500
+Wire Wire Line
+	7080 3600 7080 3500
+Wire Wire Line
+	7080 3700 7080 4240
+Wire Wire Line
+	7080 4240 7040 4240
+Wire Wire Line
+	7220 3500 7220 4090
+Wire Wire Line
+	7220 3500 7630 3500
+Wire Wire Line
+	7630 3500 7750 3500
+Wire Wire Line
+	7630 4090 7630 3500
+Wire Wire Line
+	8160 3500 8050 3500
+Wire Notes Line style solid
+	1690 2720 1690 4690
+Wire Notes Line style solid
+	1690 4690 4780 4690
+Wire Notes Line style solid
+	4780 2720 1690 2720
+Wire Notes Line style solid
+	4780 4690 4780 2720
+Wire Notes Line style solid
+	4810 2720 4810 4690
+Wire Notes Line style solid
+	4810 4690 8930 4690
+Wire Notes Line style solid
+	8930 2720 4810 2720
+Wire Notes Line style solid
+	8930 4690 8930 2720
+Text Notes 3060 2940 0    50   ~ 0
+Connecteurs
+Text Notes 6060 2920 0    50   ~ 0
+Convertisseur DC/DC
+Text Label 1970 3410 2    50   ~ 0
+OUT
+Text Label 2170 2890 2    50   ~ 0
+EN
+Text Label 6020 3600 2    50   ~ 0
+EN
+Text Label 8160 3500 0    50   ~ 0
+OUT
+$Comp
+L power:+BATT #PWR03
+U 1 1 5FC4F200
+P 2070 3290
+F 0 "#PWR03" H 2070 3140 50  0001 C CNN
+F 1 "+BATT" H 2085 3463 50  0000 C CNN
+F 2 "" H 2070 3290 50  0001 C CNN
+F 3 "" H 2070 3290 50  0001 C CNN
+	1    2070 3290
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR02
+U 1 1 5FD37E73
+P 4290 3270
+F 0 "#PWR02" H 4290 3120 50  0001 C CNN
+F 1 "+BATT" H 4305 3443 50  0000 C CNN
+F 2 "" H 4290 3270 50  0001 C CNN
+F 3 "" H 4290 3270 50  0001 C CNN
+	1    4290 3270
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR06
+U 1 1 5FC582F6
+P 5140 3430
+F 0 "#PWR06" H 5140 3280 50  0001 C CNN
+F 1 "+BATT" H 5160 3600 50  0000 C CNN
+F 2 "" H 5140 3430 50  0001 C CNN
+F 3 "" H 5140 3430 50  0001 C CNN
+	1    5140 3430
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR09
+U 1 1 5FC5DE8D
+P 6890 4090
+F 0 "#PWR09" H 6890 3940 50  0001 C CNN
+F 1 "+BATT" H 6905 4263 50  0000 C CNN
+F 2 "" H 6890 4090 50  0001 C CNN
+F 3 "" H 6890 4090 50  0001 C CNN
+	1    6890 4090
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5FCD2C43
+P 3510 3270
+F 0 "#FLG02" H 3510 3345 50  0001 C CNN
+F 1 "PWR_FLAG" H 3510 3443 50  0000 C CNN
+F 2 "" H 3510 3270 50  0001 C CNN
+F 3 "~" H 3510 3270 50  0001 C CNN
+	1    3510 3270
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5FD3798F
+P 3960 3280
+F 0 "#FLG01" H 3960 3355 50  0001 C CNN
+F 1 "PWR_FLAG" H 3960 3453 50  0000 C CNN
+F 2 "" H 3960 3280 50  0001 C CNN
+F 3 "~" H 3960 3280 50  0001 C CNN
+	1    3960 3280
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5FC5285A
+P 2170 3800
+F 0 "#PWR05" H 2170 3550 50  0001 C CNN
+F 1 "GND" H 2175 3627 50  0000 C CNN
+F 2 "" H 2170 3800 50  0001 C CNN
+F 3 "" H 2170 3800 50  0001 C CNN
+	1    2170 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5FCC16E6
+P 3420 4170
+F 0 "#PWR020" H 3420 3920 50  0001 C CNN
+F 1 "GND" H 3425 3997 50  0000 C CNN
+F 2 "" H 3420 4170 50  0001 C CNN
+F 3 "" H 3420 4170 50  0001 C CNN
+	1    3420 4170
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5FD343AC
+P 3510 3370
+F 0 "#PWR01" H 3510 3120 50  0001 C CNN
+F 1 "GND" H 3515 3197 50  0000 C CNN
+F 2 "" H 3510 3370 50  0001 C CNN
+F 3 "" H 3510 3370 50  0001 C CNN
+	1    3510 3370
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5FC59EE3
+P 5340 3890
+F 0 "#PWR07" H 5340 3640 50  0001 C CNN
+F 1 "GND" H 5345 3717 50  0000 C CNN
+F 2 "" H 5340 3890 50  0001 C CNN
+F 3 "" H 5340 3890 50  0001 C CNN
+	1    5340 3890
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FE3A614
+P 5740 3890
+F 0 "#PWR04" H 5740 3640 50  0001 C CNN
+F 1 "GND" H 5745 3717 50  0000 C CNN
+F 2 "" H 5740 3890 50  0001 C CNN
+F 3 "" H 5740 3890 50  0001 C CNN
+	1    5740 3890
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5FC5B941
+P 6520 3950
+F 0 "#PWR08" H 6520 3700 50  0001 C CNN
+F 1 "GND" H 6525 3777 50  0000 C CNN
+F 2 "" H 6520 3950 50  0001 C CNN
+F 3 "" H 6520 3950 50  0001 C CNN
+	1    6520 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5FC5E423
+P 6890 4390
+F 0 "#PWR010" H 6890 4140 50  0001 C CNN
+F 1 "GND" H 6895 4217 50  0000 C CNN
+F 2 "" H 6890 4390 50  0001 C CNN
+F 3 "" H 6890 4390 50  0001 C CNN
+	1    6890 4390
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5FC5F126
+P 7220 4390
+F 0 "#PWR011" H 7220 4140 50  0001 C CNN
+F 1 "GND" H 7225 4217 50  0000 C CNN
+F 2 "" H 7220 4390 50  0001 C CNN
+F 3 "" H 7220 4390 50  0001 C CNN
+	1    7220 4390
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5FE3CD41
+P 7630 4390
+F 0 "#PWR012" H 7630 4140 50  0001 C CNN
+F 1 "GND" H 7635 4217 50  0000 C CNN
+F 2 "" H 7630 4390 50  0001 C CNN
+F 3 "" H 7630 4390 50  0001 C CNN
+	1    7630 4390
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5FC87499
+P 7900 3500
+F 0 "F1" V 7703 3500 50  0000 C CNN
+F 1 "6A" V 7794 3500 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 7830 3500 50  0001 C CNN
+F 3 "~" H 7900 3500 50  0001 C CNN
+F 4 "0" H 7900 3500 50  0001 C CNN "JLCPCB BOM"
+	1    7900 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FCBB4F3
+P 3620 3850
+F 0 "H1" V 3574 4000 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3665 4000 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3620 3850 50  0001 C CNN
+F 3 "~" H 3620 3850 50  0001 C CNN
+F 4 "0" H 3620 3850 50  0001 C CNN "JLCPCB BOM"
+	1    3620 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FCC0703
+P 3620 4040
+F 0 "H2" V 3574 4190 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3665 4190 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3620 4040 50  0001 C CNN
+F 3 "~" H 3620 4040 50  0001 C CNN
+F 4 "0" H 3620 4040 50  0001 C CNN "JLCPCB BOM"
+	1    3620 4040
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5FD51993
+P 2460 2890
+F 0 "J1" H 2540 2882 50  0000 L CNN
+F 1 "Inhibit" H 2540 2791 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal" H 2460 2890 50  0001 C CNN
+F 3 "~" H 2460 2890 50  0001 C CNN
+F 4 "0" H 2460 2890 50  0001 C CNN "JLCPCB BOM"
+	1    2460 2890
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FE3897C
+P 5340 3740
+F 0 "C3" H 5455 3786 50  0000 L CNN
+F 1 "1u" H 5455 3695 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5378 3590 50  0001 C CNN
+F 3 "~" H 5340 3740 50  0001 C CNN
+F 4 "50V" H 5520 3620 50  0000 C CNN "Tension"
+F 5 "C28323" H 5340 3740 50  0001 C CNN "LCSC Part"
+	1    5340 3740
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FC576BA
+P 5740 3740
+F 0 "C1" H 5855 3786 50  0000 L CNN
+F 1 "2.2u" H 5855 3695 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5778 3590 50  0001 C CNN
+F 3 "~" H 5740 3740 50  0001 C CNN
+F 4 "50V" H 5920 3620 50  0000 C CNN "Tension"
+F 5 "C50254" H 5740 3740 50  0001 C CNN "LCSC Part"
+	1    5740 3740
+	1    0    0    -1  
+$EndComp
+$Comp
+L ModuleAlim6A-rescue:CP1-Device C2
+U 1 1 5FC55F57
+P 7220 4240
+F 0 "C2" H 7335 4331 50  0000 L CNN
+F 1 "330u" H 7335 4240 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 7220 4240 50  0001 C CNN
+F 3 "~" H 7220 4240 50  0001 C CNN
+F 4 "25V" H 7335 4149 50  0000 L CNN "Tension"
+F 5 "C134842" H 7220 4240 50  0001 C CNN "LCSC Part"
+	1    7220 4240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5FE3C37E
+P 7630 4240
+F 0 "C4" H 7745 4286 50  0000 L CNN
+F 1 "1u" H 7745 4195 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 7668 4090 50  0001 C CNN
+F 3 "~" H 7630 4240 50  0001 C CNN
+F 4 "25V" H 7810 4120 50  0000 C CNN "Tension"
+F 5 "C52923" H 7630 4240 50  0001 C CNN "LCSC Part"
+	1    7630 4240
+	1    0    0    -1  
+$EndComp
+$Comp
+L ModuleAlim6A-rescue:R_POT_US-Device RV1
+U 1 1 5FC5D096
+P 6890 4240
+F 0 "RV1" H 6822 4286 50  0000 R CNN
+F 1 "1M" H 6822 4195 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" H 6890 4240 50  0001 C CNN
+F 3 "~" H 6890 4240 50  0001 C CNN
+F 4 "0" H 6890 4240 50  0001 C CNN "JLCPCB BOM"
+	1    6890 4240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J2
+U 1 1 5FD3D315
+P 2460 3610
+F 0 "J2" H 2540 3602 50  0000 L CNN
+F 1 "Alim. IN / OUT" H 2540 3511 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 2460 3610 50  0001 C CNN
+F 3 "~" H 2460 3610 50  0001 C CNN
+F 4 "0" H 2460 3610 50  0001 C CNN "JLCPCB BOM"
+	1    2460 3610
+	1    0    0    1   
+$EndComp
+$Comp
+L ARIG:PTN78020W_EUK-7 U1
+U 1 1 5FC54862
+P 6520 3600
+F 0 "U1" H 6520 3967 50  0000 C CNN
+F 1 "PTN78020W_EUK-7" H 6520 3876 50  0000 C CNN
+F 2 "ARIG:Texas_EUK_R-PDSS-T7_THT" H 6420 3200 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ptn78020w.pdf" H 6495 3650 50  0001 C CNN
+F 4 "0" H 6520 3600 50  0001 C CNN "JLCPCB BOM"
+	1    6520 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
