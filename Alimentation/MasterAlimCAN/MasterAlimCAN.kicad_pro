@@ -328,24 +328,48 @@
       ""
     ],
     [
-      "3da43f86-0520-4797-8d8a-f370cac20cce",
+      "695f7ad9-57c2-4a4f-bb6c-c509d5b85b6e",
       "SDA Shifter"
     ],
     [
-      "089105fe-c96c-467a-9c54-c49136cd48fd",
+      "45ba4592-3283-40ac-88e5-837ad2ebe39d",
       "SCL Shifter"
     ],
     [
-      "a6f4e771-72c9-4983-80a1-8951328e7346",
-      "Pilotage Alim 1"
-    ],
-    [
-      "e65f16f5-16c4-48e9-9c3f-07516aed1840",
+      "ef164321-3fd7-4989-9796-e8f2716b1c85",
       "Pilotage Alim 2"
     ],
     [
-      "437897c5-9bcb-4226-b09d-80613b2e8e00",
+      "b62c8685-6929-45de-9238-6177db5cd56b",
       "Pilotage Alim 3"
+    ],
+    [
+      "a4b1e0da-5816-453f-b06d-61ca2c30c9c0",
+      "Comm"
+    ],
+    [
+      "2257b505-9461-4792-8707-8d13b64ba796",
+      "AU Logique"
+    ],
+    [
+      "d13bc51e-4a46-4c07-a6c6-d21a8a578dbb",
+      "Mesure U_A Alim 1"
+    ],
+    [
+      "286e504b-a3e5-45a7-aff1-29d1bab3e070",
+      "Mesure U_A Alim 2"
+    ],
+    [
+      "d9896301-8add-4d80-8eb5-da1ffd619a30",
+      "Mesure U_A Alim 3"
+    ],
+    [
+      "1901974b-fd41-4625-b991-ab2554b2c566",
+      "Alim 1"
+    ],
+    [
+      "98137260-ec90-4bdd-90de-6fc9a1473878",
+      "Alim 2"
     ]
   ],
   "text_variables": {}

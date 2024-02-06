@@ -365,7 +365,7 @@
   (symbol (lib_id "power:+5V") (at 156.21 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06250fdc-495f-4155-9922-4a582b4b9642)
-    (property "Reference" "#PWR021" (at 156.21 77.47 0)
+    (property "Reference" "#PWR028" (at 156.21 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 156.21 68.58 0)
@@ -380,11 +380,11 @@
     (pin "1" (uuid 8750b87f-51a7-4fcc-b3e1-bacb2481c0bd))
     (instances
       (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/3da43f86-0520-4797-8d8a-f370cac20cce"
-          (reference "#PWR021") (unit 1)
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/695f7ad9-57c2-4a4f-bb6c-c509d5b85b6e"
+          (reference "#PWR028") (unit 1)
         )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/089105fe-c96c-467a-9c54-c49136cd48fd"
-          (reference "#PWR024") (unit 1)
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/45ba4592-3283-40ac-88e5-837ad2ebe39d"
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -393,7 +393,7 @@
   (symbol (lib_id "Device:R_Small") (at 156.21 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e4ec97d-529d-4f18-847b-569603c23e80)
-    (property "Reference" "R3" (at 158.75 77.47 0)
+    (property "Reference" "R5" (at 158.75 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 158.75 80.01 0)
@@ -412,11 +412,11 @@
     (pin "1" (uuid 2840d2be-2f04-45d1-887c-01eedbb0d78c))
     (instances
       (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/3da43f86-0520-4797-8d8a-f370cac20cce"
-          (reference "R3") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/089105fe-c96c-467a-9c54-c49136cd48fd"
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/695f7ad9-57c2-4a4f-bb6c-c509d5b85b6e"
           (reference "R5") (unit 1)
+        )
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/45ba4592-3283-40ac-88e5-837ad2ebe39d"
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -445,10 +445,10 @@
     (pin "1" (uuid 5f419d34-8dba-4ebe-8845-2963211917b7))
     (instances
       (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/3da43f86-0520-4797-8d8a-f370cac20cce"
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/695f7ad9-57c2-4a4f-bb6c-c509d5b85b6e"
           (reference "Q1") (unit 1)
         )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/089105fe-c96c-467a-9c54-c49136cd48fd"
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/45ba4592-3283-40ac-88e5-837ad2ebe39d"
           (reference "Q2") (unit 1)
         )
       )
@@ -458,7 +458,7 @@
   (symbol (lib_id "Device:R_Small") (at 133.35 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc452051-2496-461f-be4b-ea812ee85c40)
-    (property "Reference" "R2" (at 135.89 77.47 0)
+    (property "Reference" "R4" (at 135.89 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 135.89 80.01 0)
@@ -477,11 +477,11 @@
     (pin "1" (uuid 83268fa4-7cf2-4e44-9317-9f96d9a613a0))
     (instances
       (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/3da43f86-0520-4797-8d8a-f370cac20cce"
-          (reference "R2") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/089105fe-c96c-467a-9c54-c49136cd48fd"
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/695f7ad9-57c2-4a4f-bb6c-c509d5b85b6e"
           (reference "R4") (unit 1)
+        )
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/45ba4592-3283-40ac-88e5-837ad2ebe39d"
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -490,7 +490,7 @@
   (symbol (lib_id "power:+3.3V") (at 133.35 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f549914c-d55d-451a-a031-3b0359f2d633)
-    (property "Reference" "#PWR022" (at 133.35 77.47 0)
+    (property "Reference" "#PWR027" (at 133.35 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 133.35 68.58 0)
@@ -505,11 +505,11 @@
     (pin "1" (uuid 787fc0c6-fcb8-4e01-b4e5-5af2741e418d))
     (instances
       (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/3da43f86-0520-4797-8d8a-f370cac20cce"
-          (reference "#PWR022") (unit 1)
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/695f7ad9-57c2-4a4f-bb6c-c509d5b85b6e"
+          (reference "#PWR027") (unit 1)
         )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/089105fe-c96c-467a-9c54-c49136cd48fd"
-          (reference "#PWR023") (unit 1)
+        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0/45ba4592-3283-40ac-88e5-837ad2ebe39d"
+          (reference "#PWR029") (unit 1)
         )
       )
     )
