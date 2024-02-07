@@ -469,7 +469,7 @@
     (property "Value" "PTN78020W_EUK-7" (at 151.13 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Module:Texas_EUK_R-PDSS-T7_THT" (at 148.59 113.03 0)
+    (property "Footprint" "ARIG:Texas_EUK_R-PDSS-T7_THT" (at 148.59 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ptn78020w.pdf" (at 150.495 101.6 0)

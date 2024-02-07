@@ -1,1 +1,57 @@
+13624784596581
+ARIG
+Bornier_2pts_L10mm_W8mm_P5mm
+
+Bornier 5mm
 0
+2
+2
+ARIG
+Bornier_3pts_L15mm_W8mm_P5mm
+
+Bornier 5mm
+0
+3
+3
+ARIG
+Logo_ARIG_12_6x6_6
+
+
+0
+0
+0
+ARIG
+MODULE_NUCLEO-F303K8
+
+
+0
+30
+30
+ARIG
+SW_TS_1088_AR_3x4x2
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss
+Tactile Switch
+0
+2
+2
+ARIG
+Seeeduino_XIAO-MOUDLE14P-2.54-21X17.8MM
+
+
+0
+20
+20
+ARIG
+Texas_EUK_R-PDSS-T7_THT
+Texas Instruments EUK 7 Pin Double Sided Module
+module pcb
+0
+7
+7
+ARIG
+Texas_EUW_R-PDSS-T7_THT
+Texas Instruments EUW 7 Pin Double Sided Module
+module pcb
+0
+7
+7
