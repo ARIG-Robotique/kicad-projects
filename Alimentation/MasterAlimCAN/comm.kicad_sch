@@ -1189,7 +1189,7 @@
   (symbol (lib_id "power:+3.3V") (at 55.88 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05131d41-8242-4bdd-8f31-875092b85110)
-    (property "Reference" "#PWR046" (at 55.88 71.12 0)
+    (property "Reference" "#PWR043" (at 55.88 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 55.88 62.23 0)
@@ -1205,7 +1205,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -1214,7 +1214,7 @@
   (symbol (lib_id "power:GND") (at 181.61 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ff9b601-0d14-4ac8-8942-392f4eddc5b6)
-    (property "Reference" "#PWR058" (at 181.61 109.22 0)
+    (property "Reference" "#PWR055" (at 181.61 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 107.95 0)
@@ -1230,7 +1230,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -1239,7 +1239,7 @@
   (symbol (lib_id "power:+3.3V") (at 64.77 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16e4c6ef-049e-481a-ac9e-4e0162fca07e)
-    (property "Reference" "#PWR048" (at 64.77 110.49 0)
+    (property "Reference" "#PWR045" (at 64.77 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 64.77 101.6 0)
@@ -1255,7 +1255,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -1264,7 +1264,7 @@
   (symbol (lib_id "power:GND") (at 207.01 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1717f395-6c48-4ebb-bae5-20726091068d)
-    (property "Reference" "#PWR062" (at 207.01 104.14 0)
+    (property "Reference" "#PWR059" (at 207.01 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 102.87 0)
@@ -1280,7 +1280,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -1289,7 +1289,7 @@
   (symbol (lib_id "Device:C_Small") (at 64.77 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cea1afc-437b-4f49-b86d-d627873eac6e)
-    (property "Reference" "C16" (at 67.31 78.7463 0)
+    (property "Reference" "C15" (at 67.31 78.7463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 67.31 81.2863 0)
@@ -1315,7 +1315,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "C16") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1324,7 +1324,7 @@
   (symbol (lib_id "power:GND") (at 64.77 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3630e67d-5f73-422c-b0fb-a2cc20a673b6)
-    (property "Reference" "#PWR049" (at 64.77 125.73 0)
+    (property "Reference" "#PWR046" (at 64.77 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 124.46 0)
@@ -1340,7 +1340,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -1349,7 +1349,7 @@
   (symbol (lib_id "power:+3.3V") (at 76.2 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 404bd494-ae43-43cc-bfbe-663f21c560ce)
-    (property "Reference" "#PWR050" (at 76.2 71.12 0)
+    (property "Reference" "#PWR047" (at 76.2 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 76.2 62.23 0)
@@ -1365,7 +1365,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -1411,7 +1411,7 @@
   (symbol (lib_id "power:GND") (at 134.62 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4851177a-07fe-4f56-ae1b-ddbc65fe6d56)
-    (property "Reference" "#PWR054" (at 134.62 134.62 0)
+    (property "Reference" "#PWR051" (at 134.62 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 133.35 0)
@@ -1427,7 +1427,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -1466,7 +1466,7 @@
   (symbol (lib_id "power:+3.3V") (at 144.78 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5071ca56-8593-4e2b-af98-bbe802295566)
-    (property "Reference" "#PWR055" (at 144.78 88.9 0)
+    (property "Reference" "#PWR052" (at 144.78 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 144.78 80.01 0)
@@ -1482,7 +1482,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -1491,7 +1491,7 @@
   (symbol (lib_id "power:+3.3V") (at 182.88 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 513624ef-8d72-4e4f-adbe-5e4e309da587)
-    (property "Reference" "#PWR059" (at 182.88 81.28 0)
+    (property "Reference" "#PWR056" (at 182.88 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 182.88 72.39 0)
@@ -1507,7 +1507,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -1516,7 +1516,7 @@
   (symbol (lib_id "Device:R_Small") (at 55.88 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6499f534-bd5f-4ef8-abd4-46656cf69221)
-    (property "Reference" "R11" (at 58.42 71.12 0)
+    (property "Reference" "R10" (at 58.42 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 58.42 73.66 0)
@@ -1536,7 +1536,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "R11") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1545,7 +1545,7 @@
   (symbol (lib_id "power:+5V") (at 181.61 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 667cfcc1-d01d-439b-8f11-85d5eab965b9)
-    (property "Reference" "#PWR057" (at 181.61 101.6 0)
+    (property "Reference" "#PWR054" (at 181.61 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 181.61 92.71 0)
@@ -1561,7 +1561,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1576,7 +1576,7 @@
     (property "Value" "CAN2" (at 238.76 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" (at 236.22 95.25 0)
+    (property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" (at 236.22 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 236.22 95.25 0)
@@ -1607,7 +1607,7 @@
     (property "Value" "CAN1" (at 238.76 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" (at 236.22 81.28 0)
+    (property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" (at 236.22 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 236.22 81.28 0)
@@ -1632,7 +1632,7 @@
   (symbol (lib_id "Interface_CAN_LIN:MCP2558FD-xSN") (at 207.01 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aca419e-cd12-4bae-9e98-9c4ecce025b3)
-    (property "Reference" "U6" (at 209.2041 74.93 0)
+    (property "Reference" "U5" (at 209.2041 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MCP2558FD-xSN" (at 209.2041 77.47 0)
@@ -1658,7 +1658,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1725,7 +1725,7 @@
   (symbol (lib_id "power:+5V") (at 228.6 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e8fd18f-263c-45b1-a5ae-7ef9542e4be2)
-    (property "Reference" "#PWR063" (at 228.6 81.28 0)
+    (property "Reference" "#PWR060" (at 228.6 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 228.6 72.39 0)
@@ -1741,7 +1741,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -1756,7 +1756,7 @@
     (property "Value" "In App Prog" (at 80.01 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" (at 77.47 93.98 0)
+    (property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" (at 77.47 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 93.98 0)
@@ -1809,7 +1809,7 @@
   (symbol (lib_id "power:GND") (at 193.04 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9113f40f-45ce-4632-8711-487278615647)
-    (property "Reference" "#PWR060" (at 193.04 106.68 0)
+    (property "Reference" "#PWR057" (at 193.04 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 105.41 0)
@@ -1825,7 +1825,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -1834,7 +1834,7 @@
   (symbol (lib_id "Device:R_Small") (at 193.04 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9206204c-f612-4864-80c6-0fc1d41324cd)
-    (property "Reference" "R13" (at 194.31 96.52 0)
+    (property "Reference" "R12" (at 194.31 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47" (at 194.31 99.06 0)
@@ -1854,7 +1854,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "R13") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1863,7 +1863,7 @@
   (symbol (lib_id "Device:C_Small") (at 85.09 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a48ca62d-c974-4c9c-bbf6-8e92b3eb8868)
-    (property "Reference" "C17" (at 87.63 81.2863 0)
+    (property "Reference" "C16" (at 87.63 81.2863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 87.63 83.8263 0)
@@ -1889,7 +1889,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "C17") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1898,7 +1898,7 @@
   (symbol (lib_id "power:GND") (at 229.87 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b60bf4b4-9ae6-431d-8428-d5e19425cbae)
-    (property "Reference" "#PWR064" (at 229.87 107.95 0)
+    (property "Reference" "#PWR061" (at 229.87 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.87 106.68 0)
@@ -1914,7 +1914,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -1923,7 +1923,7 @@
   (symbol (lib_id "power:+5V") (at 207.01 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bba97962-6535-4709-ac63-7578802b9eef)
-    (property "Reference" "#PWR061" (at 207.01 81.28 0)
+    (property "Reference" "#PWR058" (at 207.01 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 207.01 72.39 0)
@@ -1939,7 +1939,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -1948,7 +1948,7 @@
   (symbol (lib_id "Device:R_Small") (at 76.2 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1a57fc7-0832-4096-8aa5-573bfd5c9e21)
-    (property "Reference" "R12" (at 78.74 81.28 0)
+    (property "Reference" "R11" (at 78.74 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 78.74 83.82 0)
@@ -1968,7 +1968,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "R12") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1977,7 +1977,7 @@
   (symbol (lib_id "power:GND") (at 144.78 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8e37869-7180-4780-a565-37af0017e4a6)
-    (property "Reference" "#PWR056" (at 144.78 101.6 0)
+    (property "Reference" "#PWR053" (at 144.78 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 100.33 0)
@@ -1993,7 +1993,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -2008,7 +2008,7 @@
     (property "Value" "I2C2_5" (at 143.51 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" (at 140.97 121.92 0)
+    (property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" (at 140.97 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 121.92 0)
@@ -2039,7 +2039,7 @@
     (property "Value" "I2C1_5" (at 143.51 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal" (at 140.97 109.22 0)
+    (property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" (at 140.97 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 109.22 0)
@@ -2064,7 +2064,7 @@
   (symbol (lib_id "power:GND") (at 55.88 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6bb39e3-1e21-408d-9286-8be0046bdfc6)
-    (property "Reference" "#PWR047" (at 55.88 96.52 0)
+    (property "Reference" "#PWR044" (at 55.88 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 95.25 0)
@@ -2080,7 +2080,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -2089,7 +2089,7 @@
   (symbol (lib_id "power:+5V") (at 133.35 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d90da5c6-265d-4c16-ae44-af5fcb909e80)
-    (property "Reference" "#PWR053" (at 133.35 109.22 0)
+    (property "Reference" "#PWR050" (at 133.35 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 133.35 100.33 0)
@@ -2105,7 +2105,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -2114,7 +2114,7 @@
   (symbol (lib_id "power:+3.3V") (at 123.19 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e49eae89-1a4e-46f4-8057-fceabd27b689)
-    (property "Reference" "#PWR051" (at 123.19 88.9 0)
+    (property "Reference" "#PWR048" (at 123.19 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 123.19 80.01 0)
@@ -2130,7 +2130,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -2139,7 +2139,7 @@
   (symbol (lib_id "power:GND") (at 123.19 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4db154a-b377-4629-9aea-dfc9c5922827)
-    (property "Reference" "#PWR052" (at 123.19 101.6 0)
+    (property "Reference" "#PWR049" (at 123.19 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 100.33 0)
@@ -2155,7 +2155,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -2164,7 +2164,7 @@
   (symbol (lib_id "Device:C_Small") (at 181.61 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbcf74e3-82cb-4823-9c37-7f4c41727cf0)
-    (property "Reference" "C18" (at 184.15 99.0663 0)
+    (property "Reference" "C17" (at 184.15 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 184.15 101.6063 0)
@@ -2190,7 +2190,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/a4b1e0da-5816-453f-b06d-61ca2c30c9c0"
-          (reference "C18") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )

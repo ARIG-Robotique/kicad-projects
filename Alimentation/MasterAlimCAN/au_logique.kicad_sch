@@ -433,7 +433,7 @@
   (symbol (lib_id "Device:R_Small") (at 96.52 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a4621bd-7233-4322-810a-8219ff4c65f8)
-    (property "Reference" "R15" (at 99.06 88.9 0)
+    (property "Reference" "R14" (at 99.06 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "68" (at 99.06 91.44 0)
@@ -453,7 +453,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -462,7 +462,7 @@
   (symbol (lib_id "Device:R_Small") (at 82.55 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0aa7eb68-bf2c-487d-8ba5-ff5ec9e2754a)
-    (property "Reference" "R14" (at 85.09 88.9 0)
+    (property "Reference" "R13" (at 85.09 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 85.09 91.44 0)
@@ -482,7 +482,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "R14") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -491,7 +491,7 @@
   (symbol (lib_id "Device:LED_Small") (at 109.22 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38c482fd-6c2a-4371-bdad-22c9b92d44cd)
-    (property "Reference" "D7" (at 111.76 93.9165 90)
+    (property "Reference" "D6" (at 111.76 93.9165 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Red" (at 111.76 96.4565 90)
@@ -511,7 +511,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "D7") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -520,7 +520,7 @@
   (symbol (lib_id "power:GND") (at 109.22 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cf51499-4000-4719-a7b9-d774da447615)
-    (property "Reference" "#PWR068" (at 109.22 104.14 0)
+    (property "Reference" "#PWR065" (at 109.22 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 102.87 0)
@@ -536,7 +536,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -545,7 +545,7 @@
   (symbol (lib_id "power:GND") (at 96.52 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 617a2265-2f3c-406a-ad98-39663f78ebfd)
-    (property "Reference" "#PWR067" (at 96.52 104.14 0)
+    (property "Reference" "#PWR064" (at 96.52 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 102.87 0)
@@ -561,7 +561,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -570,7 +570,7 @@
   (symbol (lib_id "Device:LED_Small") (at 96.52 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73685368-e29a-425d-9dcf-0a8db687c108)
-    (property "Reference" "D6" (at 99.06 93.9165 90)
+    (property "Reference" "D5" (at 99.06 93.9165 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Green" (at 99.06 96.4565 90)
@@ -590,7 +590,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "D6") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -628,7 +628,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 200.66 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a370964f-7fd6-4cf2-af2f-d192ffd823f4)
-    (property "Reference" "J10" (at 203.2 88.9 0)
+    (property "Reference" "J9" (at 203.2 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn AU" (at 203.2 91.44 0)
@@ -648,7 +648,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "J10") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -657,7 +657,7 @@
   (symbol (lib_id "power:GND") (at 82.55 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b49501a1-47bf-4618-8c8b-8ac6dee6d548)
-    (property "Reference" "#PWR066" (at 82.55 105.41 0)
+    (property "Reference" "#PWR063" (at 82.55 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 104.14 0)
@@ -673,7 +673,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -682,7 +682,7 @@
   (symbol (lib_id "power:+3.3V") (at 82.55 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8843f92-e61c-4bcf-a252-3956be91cd3e)
-    (property "Reference" "#PWR065" (at 82.55 91.44 0)
+    (property "Reference" "#PWR062" (at 82.55 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 82.55 82.55 0)
@@ -698,7 +698,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -707,7 +707,7 @@
   (symbol (lib_id "Device:R_Small") (at 109.22 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd11b578-2721-4859-96dd-d9fe18c7ef37)
-    (property "Reference" "R16" (at 111.76 88.9 0)
+    (property "Reference" "R15" (at 111.76 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "68" (at 111.76 91.44 0)
@@ -727,7 +727,7 @@
     (instances
       (project "MasterAlimCAN"
         (path "/c83bc042-587c-48f9-abdb-41233c8ec938/2257b505-9461-4792-8707-8d13b64ba796"
-          (reference "R16") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
