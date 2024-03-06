@@ -1,847 +1,2223 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid a77695e7-26c7-46a3-a8a9-6c73aa8e1a9d)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "ARIG:PTN78020W_EUK-7" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -6.35 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "PTN78020W_EUK-7" (at 3.81 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Module:Texas_EUK_R-PDSS-T7_THT" (at -2.54 -10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ptn78020w.pdf" (at -0.635 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "texas dc-dc converter step down buck" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "6A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, EUK-7" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Texas*EUK*R?PDSS?T7*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PTN78020W_EUK-7_0_1"
-        (rectangle (start -10.16 5.08) (end 10.16 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "PTN78020W_EUK-7_1_1"
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -12.7 2.54 0) (length 2.54)
-          (name "VI" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -12.7 0 0) (length 2.54)
-          (name "~{Inhibit}" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 12.7 -2.54 180) (length 2.54)
-          (name "VO_Adj" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 12.7 0 180) (length 2.54)
-          (name "VO_Sense" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 12.7 2.54 180) (length 2.54)
-          (name "VO" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -7.62 90) (length 2.54) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C_Polarized_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Polarized_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Polarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "CP_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Polarized_Small_0_1"
-        (rectangle (start -1.524 -0.3048) (end 1.524 -0.6858)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -1.524 0.6858) (end 1.524 0.3048)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 1.524)
-            (xy -0.762 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.016 1.27)
-            (xy -1.016 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Polarized_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 1.8542)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 1.8542)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:Fuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "F" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Fuse" (at -1.905 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "fuse" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Fuse" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*Fuse*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Fuse_0_1"
-        (rectangle (start -0.762 -2.54) (end 0.762 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Fuse_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R_Potentiometer_Small" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "RV" (at -4.445 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R_Potentiometer_Small" (at -2.54 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "resistor variable" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Potentiometer" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Potentiometer*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Potentiometer_Small_0_1"
-        (polyline
-          (pts
-            (xy 0.889 0)
-            (xy 0.635 0)
-            (xy 1.651 0.381)
-            (xy 1.651 -0.381)
-            (xy 0.635 0)
-            (xy 0.889 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.762 1.8034) (end -0.762 -1.8034)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Potentiometer_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.635)
-          (name "1" (effects (font (size 0.635 0.635))))
-          (number "1" (effects (font (size 0.635 0.635))))
-        )
-        (pin passive line (at 2.54 0 180) (length 0.9906)
-          (name "2" (effects (font (size 0.635 0.635))))
-          (number "2" (effects (font (size 0.635 0.635))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.635)
-          (name "3" (effects (font (size 0.635 0.635))))
-          (number "3" (effects (font (size 0.635 0.635))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 114.3 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid 1ccbec77-7410-4b09-a958-3fd3424ea128)
-  )
-  (junction (at 166.37 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid 379879da-85cc-4227-b55e-6c8c4a905028)
-  )
-  (junction (at 181.61 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid 516985b6-71af-401d-a30c-3be046d29b10)
-  )
-  (junction (at 123.19 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid 7f209081-d558-402a-ac1b-3729c69a3739)
-  )
-  (junction (at 171.45 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid be4306e3-7702-41ef-aaeb-7589c85a47a4)
-  )
-
-  (wire (pts (xy 123.19 101.6) (xy 123.19 100.33))
-    (stroke (width 0) (type default))
-    (uuid 03a95e39-96cb-4363-9ac7-274f19d9f5ee)
-  )
-  (wire (pts (xy 123.19 100.33) (xy 114.3 100.33))
-    (stroke (width 0) (type default))
-    (uuid 13944bc4-ef94-4777-8ad9-109dce0f2476)
-  )
-  (wire (pts (xy 171.45 100.33) (xy 181.61 100.33))
-    (stroke (width 0) (type default))
-    (uuid 3656fc09-5ff5-4654-8188-7737ca5bca4a)
-  )
-  (wire (pts (xy 109.22 100.33) (xy 114.3 100.33))
-    (stroke (width 0) (type default))
-    (uuid 5309b3f4-ae46-4a62-811d-af1cb2b2ed98)
-  )
-  (wire (pts (xy 163.83 123.19) (xy 166.37 123.19))
-    (stroke (width 0) (type default))
-    (uuid 548eadb6-4cee-43eb-965c-3f8d46d39568)
-  )
-  (wire (pts (xy 200.66 100.33) (xy 201.93 100.33))
-    (stroke (width 0) (type default))
-    (uuid 6562d1f6-023d-4cb0-a659-b586b8291ff0)
-  )
-  (wire (pts (xy 166.37 102.87) (xy 166.37 100.33))
-    (stroke (width 0) (type default))
-    (uuid 6793f40b-a848-464d-b836-7ee9bd9163d7)
-  )
-  (wire (pts (xy 166.37 100.33) (xy 171.45 100.33))
-    (stroke (width 0) (type default))
-    (uuid 7b95fbe3-4092-41e9-aeeb-fba16b8fc5cc)
-  )
-  (wire (pts (xy 181.61 100.33) (xy 181.61 101.6))
-    (stroke (width 0) (type default))
-    (uuid 8234b145-ad38-4703-a263-5f6f96f2022b)
-  )
-  (wire (pts (xy 123.19 100.33) (xy 138.43 100.33))
-    (stroke (width 0) (type default))
-    (uuid 96b18f49-22c2-4e98-a075-a0cd63653759)
-  )
-  (wire (pts (xy 160.02 119.38) (xy 161.29 119.38))
-    (stroke (width 0) (type default))
-    (uuid 981a623b-fe58-43eb-b9d7-4d6912c06b63)
-  )
-  (wire (pts (xy 171.45 100.33) (xy 171.45 101.6))
-    (stroke (width 0) (type default))
-    (uuid 9ae1f6d6-7015-4d16-aa9c-9eb3bef2059b)
-  )
-  (wire (pts (xy 114.3 100.33) (xy 114.3 101.6))
-    (stroke (width 0) (type default))
-    (uuid 9b54eb88-9553-4672-8d73-6341b7e49a82)
-  )
-  (wire (pts (xy 163.83 102.87) (xy 166.37 102.87))
-    (stroke (width 0) (type default))
-    (uuid a56c9e2b-240d-419b-856d-de6c64b570d2)
-  )
-  (wire (pts (xy 163.83 105.41) (xy 166.37 105.41))
-    (stroke (width 0) (type default))
-    (uuid c4f34241-bd6c-4a06-828d-9f1d1ec906c4)
-  )
-  (wire (pts (xy 163.83 100.33) (xy 166.37 100.33))
-    (stroke (width 0) (type default))
-    (uuid e6fc5f74-6b1b-48ef-804f-cdc42b92b99d)
-  )
-  (wire (pts (xy 166.37 105.41) (xy 166.37 123.19))
-    (stroke (width 0) (type default))
-    (uuid e703f21f-d3e9-46d4-8905-f0a4c1b795b6)
-  )
-  (wire (pts (xy 181.61 100.33) (xy 193.04 100.33))
-    (stroke (width 0) (type default))
-    (uuid e93b7251-abc6-4d98-9a5b-22ce4f41bc43)
-  )
-  (wire (pts (xy 137.16 102.87) (xy 138.43 102.87))
-    (stroke (width 0) (type default))
-    (uuid f345135e-5461-4404-9344-4abbf0fec534)
-  )
-  (wire (pts (xy 161.29 119.38) (xy 161.29 120.65))
-    (stroke (width 0) (type default))
-    (uuid fafc525d-8cb4-4733-9766-8602566bbd6b)
-  )
-
-  (hierarchical_label "EN" (shape input) (at 137.16 102.87 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 1df2b5e1-234b-43b7-998d-500df8d237d4)
-  )
-  (hierarchical_label "ALIM_OUT" (shape input) (at 201.93 100.33 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 51b80dcc-6516-475e-8d50-5001b681d7b8)
-  )
-  (hierarchical_label "ALIM_IN" (shape input) (at 160.02 119.38 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 91491336-ccb3-4929-9476-cd173e348117)
-  )
-  (hierarchical_label "ALIM_IN" (shape input) (at 109.22 100.33 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid eec012ff-1788-4a63-9705-ef1d74f27e59)
-  )
-
-  (symbol (lib_id "power:GND") (at 181.61 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 028b4156-ab96-4b22-be05-481ed15f9aab)
-    (property "Reference" "#PWR086" (at 181.61 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 181.61 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 181.61 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 181.61 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3b132d40-d6f2-49c1-8067-e869736730f6))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "#PWR086") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "#PWR092") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "ARIG:PTN78020W_EUK-7") (at 151.13 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 27618e0f-b122-4e03-9d06-c33a0418ec17)
-    (property "Reference" "U10" (at 151.13 92.71 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "PTN78020W_EUK-7" (at 151.13 95.25 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "ARIG:Texas_EUK_R-PDSS-T7_THT" (at 148.59 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ptn78020w.pdf" (at 150.495 101.6 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB BOM" "" (at 151.13 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C5219636" (at 151.13 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8f7f9f89-a261-4a66-94df-1ed8a842a736))
-    (pin "2" (uuid e9d35cfb-6862-4287-b83a-8a15d53bd230))
-    (pin "6" (uuid 09e3f3c7-924f-4bb9-882e-9330f01abde6))
-    (pin "7" (uuid 8692cf26-fc70-4454-9faa-8db6acb236a9))
-    (pin "4" (uuid 9c10c431-bc99-48bf-9b86-5d34ffb77e9c))
-    (pin "5" (uuid 20e06f30-586c-41a0-95bc-4ee0fd613969))
-    (pin "3" (uuid 3dfaec33-b806-4056-95b1-693b1c2bfc89))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "U10") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "U9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Potentiometer_Small") (at 161.29 123.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3df79a82-e419-4036-9f72-520a8beb3a5d)
-    (property "Reference" "RV2" (at 158.75 121.92 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "1M" (at 158.75 124.46 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical" (at 161.29 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 161.29 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB BOM" "0" (at 161.29 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 7a4116d7-ca6a-4a16-9c59-05de5451d9b6))
-    (pin "1" (uuid ea903e65-d7f6-4a55-be4d-e9b392a916af))
-    (pin "3" (uuid f0fd512a-c0bc-401e-b385-abfaf20b0921))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "RV2") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "RV1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:Fuse") (at 196.85 100.33 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 531bec44-34f6-4abb-96ce-530b276bc24c)
-    (property "Reference" "F2" (at 196.85 95.25 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "6A" (at 196.85 97.79 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" (at 196.85 98.552 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 196.85 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB BOM" "0" (at 196.85 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6bf535d7-200d-4d42-a5f7-a084ef2f0d7b))
-    (pin "2" (uuid 6ed54548-a0e1-49a0-a785-4b9adbc216a4))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "F2") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "F1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 114.3 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 894900fc-333d-4190-bc59-4f9736b70ea1)
-    (property "Reference" "C25" (at 116.84 102.8763 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1u" (at 116.84 105.4163 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 114.3 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 114.3 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C28323" (at 114.3 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tension" "50V" (at 118.11 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 35f7aaf8-3209-4188-af9c-a15b27822640))
-    (pin "2" (uuid 41340e1c-d181-47c1-b2f5-007ce8787799))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "C25") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "C21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 123.19 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 934140d7-57ac-4c83-b408-b313bc3dd406)
-    (property "Reference" "C22" (at 125.73 102.8763 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "2.2u" (at 125.73 105.4163 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 123.19 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 123.19 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C50254" (at 123.19 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tension" "50V" (at 123.19 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d0265e42-359c-44ea-9bce-58a5d04a2d40))
-    (pin "2" (uuid 284503b9-fc52-4f00-8e4c-f72bad86dbef))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "C22") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "C26") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 151.13 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ab0f0af1-cea7-4c28-a05d-a83cab46dbb5)
-    (property "Reference" "#PWR083" (at 151.13 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 151.13 115.57 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 151.13 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 151.13 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ef386107-925e-4d19-ae5f-f6384091a4f4))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "#PWR083") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "#PWR089") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 171.45 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b2bc9b1a-ad45-4782-9174-1a8f569238b7)
-    (property "Reference" "#PWR085" (at 171.45 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 171.45 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 171.45 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 171.45 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid caaf6610-4419-4052-aa9a-30e9d25a4ae0))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "#PWR085") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "#PWR091") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 123.19 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid badcf812-996c-4fbf-8964-fbeb2e51ac19)
-    (property "Reference" "#PWR082" (at 123.19 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 123.19 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 123.19 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 123.19 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bca0243b-1243-4e0f-a4b2-6ef41006708c))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "#PWR082") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "#PWR088") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Polarized_Small") (at 171.45 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bbd24b87-da1b-46a1-950f-bd8802ee5543)
-    (property "Reference" "C27" (at 173.99 102.3239 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "330u" (at 173.99 104.8639 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_8x10" (at 171.45 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 171.45 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C134842" (at 171.45 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tension" "25V" (at 171.45 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1f890e4e-8a40-4235-8876-0cd85e439864))
-    (pin "2" (uuid 0182aee9-27a8-4d48-a433-292ca87d1cee))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "C27") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "C23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 161.29 125.73 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid be6dc1e8-f608-441c-a3e6-350b61e89889)
-    (property "Reference" "#PWR084" (at 161.29 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 161.29 130.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 161.29 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 161.29 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3524c41f-c0e3-49c5-bec8-d56dbd026bcc))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "#PWR084") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "#PWR090") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 114.3 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cd43267f-9d27-46d2-9034-4a82b519c8cb)
-    (property "Reference" "#PWR081" (at 114.3 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 114.3 111.76 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 114.3 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 114.3 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 92283432-72c8-4b34-81f2-f85da1e2d0a3))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "#PWR081") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "#PWR087") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 181.61 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ebf190c8-be22-45de-a4f7-9ce8223ff486)
-    (property "Reference" "C24" (at 184.15 102.8763 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1u" (at 184.15 105.4163 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 181.61 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 181.61 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC Part" "C52923" (at 181.61 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Tension" "25V" (at 181.61 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cefe3288-5c29-4332-a26d-49e81bdc14c3))
-    (pin "2" (uuid d91b251e-95a4-452d-8e7c-8c65967e39b1))
-    (instances
-      (project "MasterAlimCAN"
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
-          (reference "C24") (unit 1)
-        )
-        (path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
-          (reference "C28") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a77695e7-26c7-46a3-a8a9-6c73aa8e1a9d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "ARIG:PTN78020W_EUK-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTN78020W_EUK-7"
+				(at 3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ARIG:Texas_EUK_R-PDSS-T7_THT"
+				(at -2.54 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ptn78020w.pdf"
+				(at -0.635 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "6A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, EUK-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "texas dc-dc converter step down buck"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*EUK*R?PDSS?T7*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTN78020W_EUK-7_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PTN78020W_EUK-7_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "~{Inhibit}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "VO_Adj"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "VO_Sense"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Potentiometer_Small"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Small"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Small_0_1"
+				(polyline
+					(pts
+						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.762 1.8034)
+					(end -0.762 -1.8034)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.9906)
+					(name "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 114.3 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ccbec77-7410-4b09-a958-3fd3424ea128")
+	)
+	(junction
+		(at 166.37 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "379879da-85cc-4227-b55e-6c8c4a905028")
+	)
+	(junction
+		(at 181.61 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "516985b6-71af-401d-a30c-3be046d29b10")
+	)
+	(junction
+		(at 123.19 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f209081-d558-402a-ac1b-3729c69a3739")
+	)
+	(junction
+		(at 171.45 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be4306e3-7702-41ef-aaeb-7589c85a47a4")
+	)
+	(wire
+		(pts
+			(xy 123.19 101.6) (xy 123.19 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a95e39-96cb-4363-9ac7-274f19d9f5ee")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 114.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13944bc4-ef94-4777-8ad9-109dce0f2476")
+	)
+	(wire
+		(pts
+			(xy 171.45 100.33) (xy 181.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3656fc09-5ff5-4654-8188-7737ca5bca4a")
+	)
+	(wire
+		(pts
+			(xy 109.22 100.33) (xy 114.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5309b3f4-ae46-4a62-811d-af1cb2b2ed98")
+	)
+	(wire
+		(pts
+			(xy 163.83 123.19) (xy 166.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548eadb6-4cee-43eb-965c-3f8d46d39568")
+	)
+	(wire
+		(pts
+			(xy 200.66 100.33) (xy 201.93 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6562d1f6-023d-4cb0-a659-b586b8291ff0")
+	)
+	(wire
+		(pts
+			(xy 166.37 102.87) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6793f40b-a848-464d-b836-7ee9bd9163d7")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b95fbe3-4092-41e9-aeeb-fba16b8fc5cc")
+	)
+	(wire
+		(pts
+			(xy 181.61 100.33) (xy 181.61 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8234b145-ad38-4703-a263-5f6f96f2022b")
+	)
+	(wire
+		(pts
+			(xy 123.19 100.33) (xy 138.43 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b18f49-22c2-4e98-a075-a0cd63653759")
+	)
+	(wire
+		(pts
+			(xy 160.02 119.38) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981a623b-fe58-43eb-b9d7-4d6912c06b63")
+	)
+	(wire
+		(pts
+			(xy 171.45 100.33) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae1f6d6-7015-4d16-aa9c-9eb3bef2059b")
+	)
+	(wire
+		(pts
+			(xy 114.3 100.33) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b54eb88-9553-4672-8d73-6341b7e49a82")
+	)
+	(wire
+		(pts
+			(xy 163.83 102.87) (xy 166.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56c9e2b-240d-419b-856d-de6c64b570d2")
+	)
+	(wire
+		(pts
+			(xy 163.83 105.41) (xy 166.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f34241-bd6c-4a06-828d-9f1d1ec906c4")
+	)
+	(wire
+		(pts
+			(xy 163.83 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fc5f74-6b1b-48ef-804f-cdc42b92b99d")
+	)
+	(wire
+		(pts
+			(xy 166.37 105.41) (xy 166.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e703f21f-d3e9-46d4-8905-f0a4c1b795b6")
+	)
+	(wire
+		(pts
+			(xy 181.61 100.33) (xy 193.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93b7251-abc6-4d98-9a5b-22ce4f41bc43")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f345135e-5461-4404-9344-4abbf0fec534")
+	)
+	(wire
+		(pts
+			(xy 161.29 119.38) (xy 161.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafc525d-8cb4-4733-9766-8602566bbd6b")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 137.16 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1df2b5e1-234b-43b7-998d-500df8d237d4")
+	)
+	(hierarchical_label "ALIM_OUT"
+		(shape input)
+		(at 201.93 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51b80dcc-6516-475e-8d50-5001b681d7b8")
+	)
+	(hierarchical_label "ALIM_IN"
+		(shape input)
+		(at 160.02 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91491336-ccb3-4929-9476-cd173e348117")
+	)
+	(hierarchical_label "ALIM_IN"
+		(shape input)
+		(at 109.22 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eec012ff-1788-4a63-9705-ef1d74f27e59")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "028b4156-ab96-4b22-be05-481ed15f9aab")
+		(property "Reference" "#PWR086"
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b132d40-d6f2-49c1-8067-e869736730f6")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "#PWR086")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ARIG:PTN78020W_EUK-7")
+		(at 151.13 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27618e0f-b122-4e03-9d06-c33a0418ec17")
+		(property "Reference" "U10"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTN78020W_EUK-7"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ARIG:Texas_EUK_R-PDSS-T7_THT"
+			(at 148.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ptn78020w.pdf"
+			(at 150.495 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6A non-isolated switching regulator power module, 7-36V input voltage, 2.5-12.6V output voltage, EUK-7"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" ""
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5219636"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7f9f89-a261-4a66-94df-1ed8a842a736")
+		)
+		(pin "2"
+			(uuid "e9d35cfb-6862-4287-b83a-8a15d53bd230")
+		)
+		(pin "6"
+			(uuid "09e3f3c7-924f-4bb9-882e-9330f01abde6")
+		)
+		(pin "7"
+			(uuid "8692cf26-fc70-4454-9faa-8db6acb236a9")
+		)
+		(pin "4"
+			(uuid "9c10c431-bc99-48bf-9b86-5d34ffb77e9c")
+		)
+		(pin "5"
+			(uuid "20e06f30-586c-41a0-95bc-4ee0fd613969")
+		)
+		(pin "3"
+			(uuid "3dfaec33-b806-4056-95b1-693b1c2bfc89")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 161.29 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3df79a82-e419-4036-9f72-520a8beb3a5d")
+		(property "Reference" "RV2"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 158.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical"
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "0"
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a4116d7-ca6a-4a16-9c59-05de5451d9b6")
+		)
+		(pin "1"
+			(uuid "ea903e65-d7f6-4a55-be4d-e9b392a916af")
+		)
+		(pin "3"
+			(uuid "f0fd512a-c0bc-401e-b385-abfaf20b0921")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "RV2")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 196.85 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "531bec44-34f6-4abb-96ce-530b276bc24c")
+		(property "Reference" "F2"
+			(at 196.85 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6A"
+			(at 196.85 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
+			(at 196.85 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" "0"
+			(at 196.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bf535d7-200d-4d42-a5f7-a084ef2f0d7b")
+		)
+		(pin "2"
+			(uuid "6ed54548-a0e1-49a0-a785-4b9adbc216a4")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "F2")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 114.3 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "894900fc-333d-4190-bc59-4f9736b70ea1")
+		(property "Reference" "C25"
+			(at 116.84 102.8763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 116.84 105.4163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C28323"
+			(at 114.3 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tension" "50V"
+			(at 118.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35f7aaf8-3209-4188-af9c-a15b27822640")
+		)
+		(pin "2"
+			(uuid "41340e1c-d181-47c1-b2f5-007ce8787799")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "934140d7-57ac-4c83-b408-b313bc3dd406")
+		(property "Reference" "C22"
+			(at 125.73 102.8763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 125.73 105.4163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C50254"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tension" "50V"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0265e42-359c-44ea-9bce-58a5d04a2d40")
+		)
+		(pin "2"
+			(uuid "284503b9-fc52-4f00-8e4c-f72bad86dbef")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab0f0af1-cea7-4c28-a05d-a83cab46dbb5")
+		(property "Reference" "#PWR083"
+			(at 151.13 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef386107-925e-4d19-ae5f-f6384091a4f4")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "#PWR083")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2bc9b1a-ad45-4782-9174-1a8f569238b7")
+		(property "Reference" "#PWR085"
+			(at 171.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caaf6610-4419-4052-aa9a-30e9d25a4ae0")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "#PWR085")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "badcf812-996c-4fbf-8964-fbeb2e51ac19")
+		(property "Reference" "#PWR082"
+			(at 123.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca0243b-1243-4e0f-a4b2-6ef41006708c")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 171.45 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbd24b87-da1b-46a1-950f-bd8802ee5543")
+		(property "Reference" "C27"
+			(at 173.99 102.3239 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330u"
+			(at 173.99 104.8639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C134842"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tension" "25V"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f890e4e-8a40-4235-8876-0cd85e439864")
+		)
+		(pin "2"
+			(uuid "0182aee9-27a8-4d48-a433-292ca87d1cee")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be6dc1e8-f608-441c-a3e6-350b61e89889")
+		(property "Reference" "#PWR084"
+			(at 161.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3524c41f-c0e3-49c5-bec8-d56dbd026bcc")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "#PWR084")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd43267f-9d27-46d2-9034-4a82b519c8cb")
+		(property "Reference" "#PWR081"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92283432-72c8-4b34-81f2-f85da1e2d0a3")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "#PWR081")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 181.61 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebf190c8-be22-45de-a4f7-9ce8223ff486")
+		(property "Reference" "C24"
+			(at 184.15 102.8763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 184.15 105.4163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tension" "25V"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cefe3288-5c29-4332-a26d-49e81bdc14c3")
+		)
+		(pin "2"
+			(uuid "d91b251e-95a4-452d-8e7c-8c65967e39b1")
+		)
+		(instances
+			(project "MasterAlimCAN"
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/1901974b-fd41-4625-b991-ab2554b2c566"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/c83bc042-587c-48f9-abdb-41233c8ec938/98137260-ec90-4bdd-90de-6fc9a1473878"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
