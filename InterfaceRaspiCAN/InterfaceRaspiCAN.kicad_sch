@@ -6914,6 +6914,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a815e3d-a6c8-4ee3-857f-47b446f2bccc")
 		)
@@ -6976,6 +6985,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C907838"
 			(at 152.4 77.47 0)
 			(effects
 				(font
@@ -7049,6 +7067,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 34.29 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 34.29 167.64 0)
 			(effects
 				(font
@@ -7256,6 +7283,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19b87c0f-7abd-477e-a517-de09725c52c9")
 		)
@@ -7317,6 +7353,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 63.5 31.75 0)
 			(effects
 				(font
@@ -7526,6 +7571,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4a86a32-e616-46e7-bf2c-f6479b0b3c75")
 		)
@@ -7692,7 +7746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "12pF"
 			(at 111.76 64.77 0)
 			(effects
 				(font
@@ -7720,6 +7774,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1547"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -7894,7 +7957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15pF"
+		(property "Value" "12pF"
 			(at 125.73 64.77 0)
 			(effects
 				(font
@@ -7922,6 +7985,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1547"
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -8177,7 +8249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2207271530_SJK-SHENZHEN-CRYSTAL-TECH-7U40000E15UCG_C252256.pdf?_gl=1*1p84obq*_ga*MTMxMDIzOTg2OC4xNzEwMTE0ODc0*_ga_98M84MKSZH*MTcxMDExNDg4Mi4xLjEuMTcxMDExNjk4My4xMS4wLjA."
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -8195,7 +8267,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "JLCPCB Part TZ0475B"
+		(property "LCSC Part" " C252255"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -8412,6 +8484,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3e880401-5cd4-4ce6-a1f8-c32143e9f979")
 		)
@@ -8619,6 +8700,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17414"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60e1421e-3f36-40aa-9a60-049e90f4536a")
 		)
@@ -8689,6 +8779,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 189.23 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0a5f7d64-d595-4357-8557-2e0d6921b6d3")
 		)
@@ -8751,6 +8850,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 259.08 92.71 0)
 			(effects
 				(font
@@ -8835,6 +8943,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 34.29 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60315784-1a04-44ee-8de4-8207e54907c6")
 		)
@@ -8894,6 +9011,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 127 148.59 0)
 			(effects
 				(font
@@ -9234,6 +9360,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17414"
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc6f05e4-09de-4e29-ba11-005a8d35f7fc")
 		)
@@ -9296,6 +9431,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 259.08 39.37 0)
 			(effects
 				(font
@@ -9578,6 +9722,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 189.23 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "afa8fdc2-e87d-4ae7-944b-d3c57b6d3b9b")
 		)
@@ -9714,6 +9867,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 259.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "099b5dd0-49f9-4d00-bec6-af7f17d939ad")
 		)
@@ -9790,6 +9952,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 34.29 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b42a39e-92ff-4c5c-87a0-ccf3cec70654")
 		)
@@ -9849,6 +10020,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 34.29 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 34.29 172.72 0)
 			(effects
 				(font
@@ -10186,6 +10366,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C133861"
+			(at 142.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74ffe8cd-43be-4f23-8f04-1ebec6e4669f")
 		)
@@ -10357,6 +10546,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17414"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7acc6eab-e857-4971-832a-047e5dd820f3")
 		)
@@ -10419,6 +10617,15 @@
 			)
 		)
 		(property "Description" "8 Bit Port/Expander to I2C Bus, DIP/SOIC-16"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C7605"
 			(at 167.64 137.16 0)
 			(effects
 				(font
@@ -10531,6 +10738,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 189.23 132.08 0)
 			(effects
 				(font
@@ -10675,6 +10891,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C124015"
+			(at 189.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "b10f34c3-d552-494e-bacd-fe0b596cf101")
 		)
@@ -10755,6 +10980,15 @@
 			)
 		)
 		(property "Description" "expansion header for Raspberry Pi 2 & 3"
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 57.15 106.68 0)
 			(effects
 				(font
@@ -10947,6 +11181,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 189.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0311d68b-a470-4169-80b1-a6970aacddef")
 		)
@@ -11082,6 +11325,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 71.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ecc5f1f4-a60d-4735-b0e4-f4dc534be0a5")
 		)
@@ -11143,6 +11395,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 78.74 31.75 0)
 			(effects
 				(font

@@ -1,0 +1,18 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C3, C6",0402,4,100nF,C1525
+"C4, C5",0402,2,12pF,C1547
+"H1, H2, H3, H4",MountingHole_2.7mm_M2.5_Pad_Via,4,MountingHole_Pad,
+J1,PinSocket_2x20_P2.54mm_Vertical,1,Raspberry_Pi_2_3,
+"J10, J11, J12",SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,3,Conn_02x01,
+"J13, J14, J15, J16",JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal,4,Conn_01x02,
+J2,JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,1,CAN1,
+J3,JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,1,CAN2,
+J4,JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,1,I2C1_5,
+J5,JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,1,I2C2_5,
+"Q1, Q2",SOT-23,2,BSS138,C426569
+"R2, R3, R4, R5, R6, R7, R8",0805,7,10k,C17414
+U1,SOIC-14_3.9x8.7mm_P1.27mm,1,MCP2517FD-xSL,C133861
+U2,SOIC-8_3.9x4.9mm_P1.27mm,1,MCP2558FD-xSN,C124015
+U3,SOIC-16W_7.5x10.3mm_P1.27mm,1,PCF8574A,C7605
+U4,SOT-23,1,PESD1CAN,C907838
+Y2,Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering,1,40MHz, C252255

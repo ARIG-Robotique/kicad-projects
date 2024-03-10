@@ -869,6 +869,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C17414"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f5c0bea0-57d3-43ee-874f-98351502cbd8")
 		)
@@ -936,6 +945,15 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C426569"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -1013,6 +1031,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17414"
 			(at 144.78 88.9 0)
 			(effects
 				(font
