@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "000bfea_80000001",
+    "visible_layers": "000ffff_80000007",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "CapteursNumerique.kicad_prl",
+    "filename": "MultiplexeurCouleur.kicad_prl",
     "version": 3
   },
   "project": {
