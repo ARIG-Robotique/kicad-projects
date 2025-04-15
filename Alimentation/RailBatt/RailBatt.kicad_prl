@@ -49,17 +49,16 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_8aaa222f",
+    "visible_layers": "00000000_00000000_00000000_aaaaaaaf",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "CapteursNumerique.kicad_prl",
+    "filename": "RailBatt.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
